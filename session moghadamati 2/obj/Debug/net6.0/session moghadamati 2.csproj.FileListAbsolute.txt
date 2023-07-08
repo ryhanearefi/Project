@@ -1,0 +1,15 @@
+/home/reyhane/Documents/reyhane/Project C#/session moghadamati 2/bin/Debug/net6.0/session moghadamati 2
+/home/reyhane/Documents/reyhane/Project C#/session moghadamati 2/bin/Debug/net6.0/session moghadamati 2.deps.json
+/home/reyhane/Documents/reyhane/Project C#/session moghadamati 2/bin/Debug/net6.0/session moghadamati 2.runtimeconfig.json
+/home/reyhane/Documents/reyhane/Project C#/session moghadamati 2/bin/Debug/net6.0/session moghadamati 2.dll
+/home/reyhane/Documents/reyhane/Project C#/session moghadamati 2/bin/Debug/net6.0/ref/session moghadamati 2.dll
+/home/reyhane/Documents/reyhane/Project C#/session moghadamati 2/bin/Debug/net6.0/session moghadamati 2.pdb
+/home/reyhane/Documents/reyhane/Project C#/session moghadamati 2/obj/Debug/net6.0/session moghadamati 2.csproj.AssemblyReference.cache
+/home/reyhane/Documents/reyhane/Project C#/session moghadamati 2/obj/Debug/net6.0/session moghadamati 2.GeneratedMSBuildEditorConfig.editorconfig
+/home/reyhane/Documents/reyhane/Project C#/session moghadamati 2/obj/Debug/net6.0/session moghadamati 2.AssemblyInfoInputs.cache
+/home/reyhane/Documents/reyhane/Project C#/session moghadamati 2/obj/Debug/net6.0/session moghadamati 2.AssemblyInfo.cs
+/home/reyhane/Documents/reyhane/Project C#/session moghadamati 2/obj/Debug/net6.0/session moghadamati 2.csproj.CoreCompileInputs.cache
+/home/reyhane/Documents/reyhane/Project C#/session moghadamati 2/obj/Debug/net6.0/session moghadamati 2.dll
+/home/reyhane/Documents/reyhane/Project C#/session moghadamati 2/obj/Debug/net6.0/ref/session moghadamati 2.dll
+/home/reyhane/Documents/reyhane/Project C#/session moghadamati 2/obj/Debug/net6.0/session moghadamati 2.pdb
+/home/reyhane/Documents/reyhane/Project C#/session moghadamati 2/obj/Debug/net6.0/session moghadamati 2.genruntimeconfig.cache
