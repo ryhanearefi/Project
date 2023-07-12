@@ -2,29 +2,25 @@
 {
   private static void Main(string[] args)
   {
-    string[] Student = new string[3];
-    int[] Nomre_Student = new int[3];
+    string[] students = new string[3];
+    int[] studentScores = new int[3];
 
-
-    for (int i = 0; i < Student.Length; i++)
+    for (int i = 0; i < students.Length; i++)
     {
-      Console.Write("Plz.Enter A Fname  Student : ");
-      Student[i] = System.Console.ReadLine();
-
+      Console.Write("Please enter the first name of the student: ");
+      students[i] = Console.ReadLine();
     }
 
-
-
-    for (int j = 0; j < Nomre_Student.Length; j++)
+    for (int j = 0; j < studentScores.Length; j++)
     {
-      Console.Write("Plz.Enter A Fname  Student : ");
-      Nomre_Student[j] = int.Parse(Console.ReadLine());
+      Console.Write("Please enter the score of student: ");
+      studentScores[j] = int.Parse(Console.ReadLine());
     }
 
-    Console.WriteLine(" ** Show Fname & Mark Student ***");
-    for (int i = 0; i < Nomre_Student.Length; i++)
+    Console.WriteLine("***** Showing Student First Names & Scores *****");
+    for (int i = 0; i < studentScores.Length; i++)
     {
-      Console.WriteLine("Fname: " + Nomre_Student[i] + " -----> " + " Mark : " + Nomre_Student[i]);
+      Console.WriteLine("First Name: " + students[i] + " -----> Score: " + studentScores[i]);
     }
   }
 }

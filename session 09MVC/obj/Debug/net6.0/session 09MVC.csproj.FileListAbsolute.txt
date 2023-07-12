@@ -1,0 +1,26 @@
+/home/reyhane/Documents/reyhane/Project C#/session 09MVC/bin/Debug/net6.0/appsettings.Development.json
+/home/reyhane/Documents/reyhane/Project C#/session 09MVC/bin/Debug/net6.0/appsettings.json
+/home/reyhane/Documents/reyhane/Project C#/session 09MVC/bin/Debug/net6.0/session 09MVC.staticwebassets.runtime.json
+/home/reyhane/Documents/reyhane/Project C#/session 09MVC/bin/Debug/net6.0/session 09MVC
+/home/reyhane/Documents/reyhane/Project C#/session 09MVC/bin/Debug/net6.0/session 09MVC.deps.json
+/home/reyhane/Documents/reyhane/Project C#/session 09MVC/bin/Debug/net6.0/session 09MVC.runtimeconfig.json
+/home/reyhane/Documents/reyhane/Project C#/session 09MVC/bin/Debug/net6.0/session 09MVC.dll
+/home/reyhane/Documents/reyhane/Project C#/session 09MVC/bin/Debug/net6.0/ref/session 09MVC.dll
+/home/reyhane/Documents/reyhane/Project C#/session 09MVC/bin/Debug/net6.0/session 09MVC.pdb
+/home/reyhane/Documents/reyhane/Project C#/session 09MVC/obj/Debug/net6.0/session 09MVC.csproj.AssemblyReference.cache
+/home/reyhane/Documents/reyhane/Project C#/session 09MVC/obj/Debug/net6.0/session 09MVC.GeneratedMSBuildEditorConfig.editorconfig
+/home/reyhane/Documents/reyhane/Project C#/session 09MVC/obj/Debug/net6.0/session 09MVC.AssemblyInfoInputs.cache
+/home/reyhane/Documents/reyhane/Project C#/session 09MVC/obj/Debug/net6.0/session 09MVC.AssemblyInfo.cs
+/home/reyhane/Documents/reyhane/Project C#/session 09MVC/obj/Debug/net6.0/session 09MVC.csproj.CoreCompileInputs.cache
+/home/reyhane/Documents/reyhane/Project C#/session 09MVC/obj/Debug/net6.0/session 09MVC.MvcApplicationPartsAssemblyInfo.cache
+/home/reyhane/Documents/reyhane/Project C#/session 09MVC/obj/Debug/net6.0/session 09MVC.RazorAssemblyInfo.cache
+/home/reyhane/Documents/reyhane/Project C#/session 09MVC/obj/Debug/net6.0/session 09MVC.RazorAssemblyInfo.cs
+/home/reyhane/Documents/reyhane/Project C#/session 09MVC/obj/Debug/net6.0/staticwebassets.build.json
+/home/reyhane/Documents/reyhane/Project C#/session 09MVC/obj/Debug/net6.0/staticwebassets.development.json
+/home/reyhane/Documents/reyhane/Project C#/session 09MVC/obj/Debug/net6.0/scopedcss/Views/Shared/_Layout.cshtml.rz.scp.css
+/home/reyhane/Documents/reyhane/Project C#/session 09MVC/obj/Debug/net6.0/scopedcss/bundle/session 09MVC.styles.css
+/home/reyhane/Documents/reyhane/Project C#/session 09MVC/obj/Debug/net6.0/scopedcss/projectbundle/session 09MVC.bundle.scp.css
+/home/reyhane/Documents/reyhane/Project C#/session 09MVC/obj/Debug/net6.0/session 09MVC.dll
+/home/reyhane/Documents/reyhane/Project C#/session 09MVC/obj/Debug/net6.0/ref/session 09MVC.dll
+/home/reyhane/Documents/reyhane/Project C#/session 09MVC/obj/Debug/net6.0/session 09MVC.pdb
+/home/reyhane/Documents/reyhane/Project C#/session 09MVC/obj/Debug/net6.0/session 09MVC.genruntimeconfig.cache
