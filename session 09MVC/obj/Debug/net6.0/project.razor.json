@@ -18374,6 +18374,11 @@
   "RootNamespace": "session_09MVC",
   "Documents": [
     {
+      "FilePath": "/home/reyhane/Documents/reyhane/Project C#/session 09MVC/Views/Shared/ali.cshtml",
+      "TargetPath": "Views\\Shared\\ali.cshtml",
+      "FileKind": "mvc"
+    },
+    {
       "FilePath": "/home/reyhane/Documents/reyhane/Project C#/session 09MVC/Views/_ViewImports.cshtml",
       "TargetPath": "Views\\_ViewImports.cshtml",
       "FileKind": "mvc"
