@@ -18394,11 +18394,6 @@
       "FileKind": "mvc"
     },
     {
-      "FilePath": "/home/reyhane/Documents/reyhane/Project C#/session 09MVC/Views/Home/print.cshtml",
-      "TargetPath": "Views\\Home\\print.cshtml",
-      "FileKind": "mvc"
-    },
-    {
       "FilePath": "/home/reyhane/Documents/reyhane/Project C#/session 09MVC/Views/Shared/_Layout.cshtml",
       "TargetPath": "Views\\Shared\\_Layout.cshtml",
       "FileKind": "mvc"
@@ -18406,6 +18401,16 @@
     {
       "FilePath": "/home/reyhane/Documents/reyhane/Project C#/session 09MVC/Views/Shared/_ValidationScriptsPartial.cshtml",
       "TargetPath": "Views\\Shared\\_ValidationScriptsPartial.cshtml",
+      "FileKind": "mvc"
+    },
+    {
+      "FilePath": "/home/reyhane/Documents/reyhane/Project C#/session 09MVC/Views/Home/contact.cshtml",
+      "TargetPath": "Views\\Home\\contact.cshtml",
+      "FileKind": "mvc"
+    },
+    {
+      "FilePath": "/home/reyhane/Documents/reyhane/Project C#/session 09MVC/Views/Home/about.cshtml",
+      "TargetPath": "Views\\Home\\about.cshtml",
       "FileKind": "mvc"
     },
     {

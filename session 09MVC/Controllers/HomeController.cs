@@ -8,5 +8,15 @@ public class HomeController : Controller
   {
     return View();
   }
+ public IActionResult about()
+  {
+    return View();
+  }
+  
+
+  public IActionResult contact()
+  {
+    return View();
+  }
 
 }

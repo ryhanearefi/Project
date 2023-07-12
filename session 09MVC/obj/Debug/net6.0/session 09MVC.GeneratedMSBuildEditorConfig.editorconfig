@@ -15,12 +15,16 @@ build_property.GenerateRazorMetadataSourceChecksumAttributes =
 build_property.MSBuildProjectDirectory = /home/reyhane/Documents/reyhane/Project C#/session 09MVC
 build_property._RazorSourceGeneratorDebug = 
 
-[/home/reyhane/Documents/reyhane/Project C\#/session 09MVC/Views/Home/Index.cshtml]
-build_metadata.AdditionalFiles.TargetPath = Vmlld3MvSG9tZS9JbmRleC5jc2h0bWw=
+[/home/reyhane/Documents/reyhane/Project C\#/session 09MVC/Views/Home/about.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3MvSG9tZS9hYm91dC5jc2h0bWw=
 build_metadata.AdditionalFiles.CssScope = 
 
-[/home/reyhane/Documents/reyhane/Project C\#/session 09MVC/Views/Home/print.cshtml]
-build_metadata.AdditionalFiles.TargetPath = Vmlld3MvSG9tZS9wcmludC5jc2h0bWw=
+[/home/reyhane/Documents/reyhane/Project C\#/session 09MVC/Views/Home/contact.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3MvSG9tZS9jb250YWN0LmNzaHRtbA==
+build_metadata.AdditionalFiles.CssScope = 
+
+[/home/reyhane/Documents/reyhane/Project C\#/session 09MVC/Views/Home/Index.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3MvSG9tZS9JbmRleC5jc2h0bWw=
 build_metadata.AdditionalFiles.CssScope = 
 
 [/home/reyhane/Documents/reyhane/Project C\#/session 09MVC/Views/Home/Privacy.cshtml]
