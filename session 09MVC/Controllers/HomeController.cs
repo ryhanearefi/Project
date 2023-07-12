@@ -19,4 +19,22 @@ public class HomeController : Controller
     return View();
   }
 
+
+  public IActionResult doctor()
+  {
+    return View();
+  }
+
+
+public IActionResult testimonial()
+  {
+    return View();
+  }
+
+
+  public IActionResult treatment()
+  {
+    return View();
+  }
+
 }

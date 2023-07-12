@@ -18389,6 +18389,16 @@
       "FileKind": "mvc"
     },
     {
+      "FilePath": "/home/reyhane/Documents/reyhane/Project C#/session 09MVC/Views/Home/testimonial.cshtml",
+      "TargetPath": "Views\\Home\\testimonial.cshtml",
+      "FileKind": "mvc"
+    },
+    {
+      "FilePath": "/home/reyhane/Documents/reyhane/Project C#/session 09MVC/Views/Home/treatment.cshtml",
+      "TargetPath": "Views\\Home\\treatment.cshtml",
+      "FileKind": "mvc"
+    },
+    {
       "FilePath": "/home/reyhane/Documents/reyhane/Project C#/session 09MVC/Views/_ViewStart.cshtml",
       "TargetPath": "Views\\_ViewStart.cshtml",
       "FileKind": "mvc"
@@ -18416,6 +18426,11 @@
     {
       "FilePath": "/home/reyhane/Documents/reyhane/Project C#/session 09MVC/Views/Shared/Error.cshtml",
       "TargetPath": "Views\\Shared\\Error.cshtml",
+      "FileKind": "mvc"
+    },
+    {
+      "FilePath": "/home/reyhane/Documents/reyhane/Project C#/session 09MVC/Views/Home/doctor.cshtml",
+      "TargetPath": "Views\\Home\\doctor.cshtml",
       "FileKind": "mvc"
     },
     {
