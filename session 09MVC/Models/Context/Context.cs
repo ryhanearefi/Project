@@ -9,7 +9,7 @@ public class Context : DbContext
 
   protected override void OnConfiguring(DbContextOptionsBuilder optionsBuilder)
   {
-     optionsBuilder.UseSqlServer(@"Server=.;Database=shoptest;integrated security=SSPT;MultipleActiveResultSets=true;");
+     optionsBuilder.UseSqlServer(@"Server=.;Database=shoptest;Trusted_Connection=SSPI;Encrypt=false;TrustServerCertificate=true");
   }
 
 
