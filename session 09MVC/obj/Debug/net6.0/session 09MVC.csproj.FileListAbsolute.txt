@@ -82,3 +82,10 @@
 /home/reyhane/Documents/reyhane/Project C#/session 09MVC/bin/Debug/net6.0/System.Text.Encodings.Web.dll
 /home/reyhane/Documents/reyhane/Project C#/session 09MVC/bin/Debug/net6.0/System.Text.Json.dll
 /home/reyhane/Documents/reyhane/Project C#/session 09MVC/bin/Debug/net6.0/runtimes/browser/lib/net6.0/System.Text.Encodings.Web.dll
+/home/reyhane/Documents/reyhane/Project C#/session 09MVC/bin/Debug/net6.0/AzStudioDataClasses.dll
+/home/reyhane/Documents/reyhane/Project C#/session 09MVC/bin/Debug/net6.0/AzStudioKernel.dll
+/home/reyhane/Documents/reyhane/Project C#/session 09MVC/bin/Debug/net6.0/BouncyCastle.Crypto.dll
+/home/reyhane/Documents/reyhane/Project C#/session 09MVC/bin/Debug/net6.0/Newtonsoft.Json.Schema.dll
+/home/reyhane/Documents/reyhane/Project C#/session 09MVC/bin/Debug/net6.0/Polly.dll
+/home/reyhane/Documents/reyhane/Project C#/session 09MVC/bin/Debug/net6.0/RestSharp.dll
+/home/reyhane/Documents/reyhane/Project C#/session 09MVC/bin/Debug/net6.0/ICSharpCode.SharpZipLib.dll

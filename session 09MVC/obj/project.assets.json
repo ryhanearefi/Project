@@ -2,6 +2,36 @@
   "version": 3,
   "targets": {
     "net6.0": {
+      "AzStudioDataClasses/19.3.1.132": {
+        "type": "package",
+        "dependencies": {
+          "AzStudioKernel": "19.3.1.166",
+          "Newtonsoft.Json": "12.0.3",
+          "Newtonsoft.Json.Schema": "3.0.11"
+        },
+        "compile": {
+          "lib/net461/AzStudioDataClasses.dll": {}
+        },
+        "runtime": {
+          "lib/net461/AzStudioDataClasses.dll": {}
+        }
+      },
+      "AzStudioKernel/19.3.1.166": {
+        "type": "package",
+        "dependencies": {
+          "BouncyCastle": "1.8.5",
+          "Newtonsoft.Json": "12.0.3",
+          "Polly": "7.1.1",
+          "RestSharp": "106.6.10",
+          "SharpZipLib": "1.2.0"
+        },
+        "compile": {
+          "lib/net461/AzStudioKernel.dll": {}
+        },
+        "runtime": {
+          "lib/net461/AzStudioKernel.dll": {}
+        }
+      },
       "Azure.Core/1.24.0": {
         "type": "package",
         "dependencies": {
@@ -36,6 +66,15 @@
         },
         "runtime": {
           "lib/netstandard2.0/Azure.Identity.dll": {}
+        }
+      },
+      "BouncyCastle/1.8.5": {
+        "type": "package",
+        "compile": {
+          "lib/BouncyCastle.Crypto.dll": {}
+        },
+        "runtime": {
+          "lib/BouncyCastle.Crypto.dll": {}
         }
       },
       "Humanizer.Core/2.14.1": {
@@ -507,6 +546,13 @@
           "lib/netstandard2.0/Microsoft.SqlServer.Server.dll": {}
         }
       },
+      "Microsoft.VisualStudio.Azure.Containers.Tools.Targets/1.18.1": {
+        "type": "package",
+        "build": {
+          "build/Microsoft.VisualStudio.Azure.Containers.Tools.Targets.props": {},
+          "build/Microsoft.VisualStudio.Azure.Containers.Tools.Targets.targets": {}
+        }
+      },
       "Microsoft.Win32.Registry/5.0.0": {
         "type": "package",
         "dependencies": {
@@ -563,6 +609,45 @@
         },
         "runtime": {
           "lib/netstandard2.0/Newtonsoft.Json.dll": {}
+        }
+      },
+      "Newtonsoft.Json.Schema/3.0.11": {
+        "type": "package",
+        "dependencies": {
+          "Newtonsoft.Json": "12.0.2"
+        },
+        "compile": {
+          "lib/netstandard2.0/Newtonsoft.Json.Schema.dll": {}
+        },
+        "runtime": {
+          "lib/netstandard2.0/Newtonsoft.Json.Schema.dll": {}
+        }
+      },
+      "Polly/7.1.1": {
+        "type": "package",
+        "compile": {
+          "lib/netstandard2.0/Polly.dll": {}
+        },
+        "runtime": {
+          "lib/netstandard2.0/Polly.dll": {}
+        }
+      },
+      "RestSharp/106.6.10": {
+        "type": "package",
+        "compile": {
+          "lib/netstandard2.0/RestSharp.dll": {}
+        },
+        "runtime": {
+          "lib/netstandard2.0/RestSharp.dll": {}
+        }
+      },
+      "SharpZipLib/1.2.0": {
+        "type": "package",
+        "compile": {
+          "lib/netstandard2.0/ICSharpCode.SharpZipLib.dll": {}
+        },
+        "runtime": {
+          "lib/netstandard2.0/ICSharpCode.SharpZipLib.dll": {}
         }
       },
       "System.Buffers/4.5.1": {
@@ -983,6 +1068,30 @@
     }
   },
   "libraries": {
+    "AzStudioDataClasses/19.3.1.132": {
+      "sha512": "luE+sFQnzrrWvCPfHH6kVEkVmOLlTJfeqL1xueFzw88TEBjDboh3hoHkk21ffs9h1n+0nQfANkMWHoJRQbX/4Q==",
+      "type": "package",
+      "path": "azstudiodataclasses/19.3.1.132",
+      "files": [
+        ".nupkg.metadata",
+        ".signature.p7s",
+        "azstudiodataclasses.19.3.1.132.nupkg.sha512",
+        "azstudiodataclasses.nuspec",
+        "lib/net461/AzStudioDataClasses.dll"
+      ]
+    },
+    "AzStudioKernel/19.3.1.166": {
+      "sha512": "J7Uzgw9TYaSCKyMUSCVQXg21S/k7+dcPds4v6lMc190ntc5s0jKvoh75RtzzeAAMs8rbJ2R2dROUtpxkK8jtPw==",
+      "type": "package",
+      "path": "azstudiokernel/19.3.1.166",
+      "files": [
+        ".nupkg.metadata",
+        ".signature.p7s",
+        "azstudiokernel.19.3.1.166.nupkg.sha512",
+        "azstudiokernel.nuspec",
+        "lib/net461/AzStudioKernel.dll"
+      ]
+    },
     "Azure.Core/1.24.0": {
       "sha512": "+/qI1j2oU1S4/nvxb2k/wDsol00iGf1AyJX5g3epV7eOpQEP/2xcgh/cxgKMeFgn3U2fmgSiBnQZdkV+l5y0Uw==",
       "type": "package",
@@ -1019,6 +1128,19 @@
         "azureicon.png",
         "lib/netstandard2.0/Azure.Identity.dll",
         "lib/netstandard2.0/Azure.Identity.xml"
+      ]
+    },
+    "BouncyCastle/1.8.5": {
+      "sha512": "196QWfvglefGd/Cr2C4hIdmA9HYkLFZovxJ7L0BAOFlNn+qlmVxqpxpcKGoC5AF4rOuoUq3ylzLgKZW5j4nmDQ==",
+      "type": "package",
+      "path": "bouncycastle/1.8.5",
+      "files": [
+        ".nupkg.metadata",
+        ".signature.p7s",
+        "README.md",
+        "bouncycastle.1.8.5.nupkg.sha512",
+        "bouncycastle.nuspec",
+        "lib/BouncyCastle.Crypto.dll"
       ]
     },
     "Humanizer.Core/2.14.1": {
@@ -1881,6 +2003,87 @@
         "microsoft.sqlserver.server.nuspec"
       ]
     },
+    "Microsoft.VisualStudio.Azure.Containers.Tools.Targets/1.18.1": {
+      "sha512": "RtNQEQQ/bgaxzrsZEkPB+/DFaUgNiq8GtZz/R4lt+mKXPcEvEuawlbl0PB1s7ND9kvkUVZtMphPxE9Ma1VGiFg==",
+      "type": "package",
+      "path": "microsoft.visualstudio.azure.containers.tools.targets/1.18.1",
+      "hasTools": true,
+      "files": [
+        ".nupkg.metadata",
+        ".signature.p7s",
+        "CHANGELOG.md",
+        "EULA.md",
+        "ThirdPartyNotices.txt",
+        "build/Container.props",
+        "build/Container.targets",
+        "build/Microsoft.VisualStudio.Azure.Containers.Tools.Targets.props",
+        "build/Microsoft.VisualStudio.Azure.Containers.Tools.Targets.targets",
+        "build/Rules/GeneralBrowseObject.xaml",
+        "build/Rules/cs-CZ/GeneralBrowseObject.xaml",
+        "build/Rules/de-DE/GeneralBrowseObject.xaml",
+        "build/Rules/es-ES/GeneralBrowseObject.xaml",
+        "build/Rules/fr-FR/GeneralBrowseObject.xaml",
+        "build/Rules/it-IT/GeneralBrowseObject.xaml",
+        "build/Rules/ja-JP/GeneralBrowseObject.xaml",
+        "build/Rules/ko-KR/GeneralBrowseObject.xaml",
+        "build/Rules/pl-PL/GeneralBrowseObject.xaml",
+        "build/Rules/pt-BR/GeneralBrowseObject.xaml",
+        "build/Rules/ru-RU/GeneralBrowseObject.xaml",
+        "build/Rules/tr-TR/GeneralBrowseObject.xaml",
+        "build/Rules/zh-CN/GeneralBrowseObject.xaml",
+        "build/Rules/zh-TW/GeneralBrowseObject.xaml",
+        "build/ToolsTarget.props",
+        "build/ToolsTarget.targets",
+        "icon.png",
+        "microsoft.visualstudio.azure.containers.tools.targets.1.18.1.nupkg.sha512",
+        "microsoft.visualstudio.azure.containers.tools.targets.nuspec",
+        "tools/Microsoft.VisualStudio.Containers.Tools.Common.dll",
+        "tools/Microsoft.VisualStudio.Containers.Tools.Shared.dll",
+        "tools/Microsoft.VisualStudio.Containers.Tools.Tasks.dll",
+        "tools/Newtonsoft.Json.dll",
+        "tools/System.Security.Principal.Windows.dll",
+        "tools/cs/Microsoft.VisualStudio.Containers.Tools.Common.resources.dll",
+        "tools/cs/Microsoft.VisualStudio.Containers.Tools.Shared.resources.dll",
+        "tools/cs/Microsoft.VisualStudio.Containers.Tools.Tasks.resources.dll",
+        "tools/de/Microsoft.VisualStudio.Containers.Tools.Common.resources.dll",
+        "tools/de/Microsoft.VisualStudio.Containers.Tools.Shared.resources.dll",
+        "tools/de/Microsoft.VisualStudio.Containers.Tools.Tasks.resources.dll",
+        "tools/es/Microsoft.VisualStudio.Containers.Tools.Common.resources.dll",
+        "tools/es/Microsoft.VisualStudio.Containers.Tools.Shared.resources.dll",
+        "tools/es/Microsoft.VisualStudio.Containers.Tools.Tasks.resources.dll",
+        "tools/fr/Microsoft.VisualStudio.Containers.Tools.Common.resources.dll",
+        "tools/fr/Microsoft.VisualStudio.Containers.Tools.Shared.resources.dll",
+        "tools/fr/Microsoft.VisualStudio.Containers.Tools.Tasks.resources.dll",
+        "tools/it/Microsoft.VisualStudio.Containers.Tools.Common.resources.dll",
+        "tools/it/Microsoft.VisualStudio.Containers.Tools.Shared.resources.dll",
+        "tools/it/Microsoft.VisualStudio.Containers.Tools.Tasks.resources.dll",
+        "tools/ja/Microsoft.VisualStudio.Containers.Tools.Common.resources.dll",
+        "tools/ja/Microsoft.VisualStudio.Containers.Tools.Shared.resources.dll",
+        "tools/ja/Microsoft.VisualStudio.Containers.Tools.Tasks.resources.dll",
+        "tools/ko/Microsoft.VisualStudio.Containers.Tools.Common.resources.dll",
+        "tools/ko/Microsoft.VisualStudio.Containers.Tools.Shared.resources.dll",
+        "tools/ko/Microsoft.VisualStudio.Containers.Tools.Tasks.resources.dll",
+        "tools/pl/Microsoft.VisualStudio.Containers.Tools.Common.resources.dll",
+        "tools/pl/Microsoft.VisualStudio.Containers.Tools.Shared.resources.dll",
+        "tools/pl/Microsoft.VisualStudio.Containers.Tools.Tasks.resources.dll",
+        "tools/pt-BR/Microsoft.VisualStudio.Containers.Tools.Common.resources.dll",
+        "tools/pt-BR/Microsoft.VisualStudio.Containers.Tools.Shared.resources.dll",
+        "tools/pt-BR/Microsoft.VisualStudio.Containers.Tools.Tasks.resources.dll",
+        "tools/ru/Microsoft.VisualStudio.Containers.Tools.Common.resources.dll",
+        "tools/ru/Microsoft.VisualStudio.Containers.Tools.Shared.resources.dll",
+        "tools/ru/Microsoft.VisualStudio.Containers.Tools.Tasks.resources.dll",
+        "tools/tr/Microsoft.VisualStudio.Containers.Tools.Common.resources.dll",
+        "tools/tr/Microsoft.VisualStudio.Containers.Tools.Shared.resources.dll",
+        "tools/tr/Microsoft.VisualStudio.Containers.Tools.Tasks.resources.dll",
+        "tools/utils/KillProcess.exe",
+        "tools/zh-Hans/Microsoft.VisualStudio.Containers.Tools.Common.resources.dll",
+        "tools/zh-Hans/Microsoft.VisualStudio.Containers.Tools.Shared.resources.dll",
+        "tools/zh-Hans/Microsoft.VisualStudio.Containers.Tools.Tasks.resources.dll",
+        "tools/zh-Hant/Microsoft.VisualStudio.Containers.Tools.Common.resources.dll",
+        "tools/zh-Hant/Microsoft.VisualStudio.Containers.Tools.Shared.resources.dll",
+        "tools/zh-Hant/Microsoft.VisualStudio.Containers.Tools.Tasks.resources.dll"
+      ]
+    },
     "Microsoft.Win32.Registry/5.0.0": {
       "sha512": "dDoKi0PnDz31yAyETfRntsLArTlVAVzUzCIvvEDsDsucrl33Dl8pIJG06ePTJTI3tGpeyHS9Cq7Foc/s4EeKcg==",
       "type": "package",
@@ -1995,6 +2198,77 @@
         "newtonsoft.json.12.0.3.nupkg.sha512",
         "newtonsoft.json.nuspec",
         "packageIcon.png"
+      ]
+    },
+    "Newtonsoft.Json.Schema/3.0.11": {
+      "sha512": "wYT9dYZhDFSZceFSrKhNmqm5wHq0i40zgRNz1uHGsT2jol5tCymP8NCNb5xzlQfSNkCvVKQKfVD8eD1/hxUTyg==",
+      "type": "package",
+      "path": "newtonsoft.json.schema/3.0.11",
+      "files": [
+        ".nupkg.metadata",
+        ".signature.p7s",
+        "LICENSE.md",
+        "lib/net35/Newtonsoft.Json.Schema.dll",
+        "lib/net35/Newtonsoft.Json.Schema.xml",
+        "lib/net40/Newtonsoft.Json.Schema.dll",
+        "lib/net40/Newtonsoft.Json.Schema.xml",
+        "lib/net45/Newtonsoft.Json.Schema.dll",
+        "lib/net45/Newtonsoft.Json.Schema.xml",
+        "lib/netstandard1.3/Newtonsoft.Json.Schema.dll",
+        "lib/netstandard1.3/Newtonsoft.Json.Schema.xml",
+        "lib/netstandard2.0/Newtonsoft.Json.Schema.dll",
+        "lib/netstandard2.0/Newtonsoft.Json.Schema.xml",
+        "lib/portable-net45+win8+wp8+wpa81/Newtonsoft.Json.Schema.dll",
+        "lib/portable-net45+win8+wp8+wpa81/Newtonsoft.Json.Schema.xml",
+        "newtonsoft.json.schema.3.0.11.nupkg.sha512",
+        "newtonsoft.json.schema.nuspec"
+      ]
+    },
+    "Polly/7.1.1": {
+      "sha512": "okRGHVvn0bGCeMBgaCZShlSez8rxjgthyDf/NRTYsSh5kb8IbKnX7W15d3s95Kq9uzwj7tFYiXNrCvn6d0XoeA==",
+      "type": "package",
+      "path": "polly/7.1.1",
+      "files": [
+        ".nupkg.metadata",
+        ".signature.p7s",
+        "lib/netstandard1.1/Polly.dll",
+        "lib/netstandard1.1/Polly.xml",
+        "lib/netstandard2.0/Polly.dll",
+        "lib/netstandard2.0/Polly.xml",
+        "polly.7.1.1.nupkg.sha512",
+        "polly.nuspec"
+      ]
+    },
+    "RestSharp/106.6.10": {
+      "sha512": "x1FM32hjnVOIn+DKtCs2Y4Q2DCUE5KW08NUXUd4GjgKjE+5PE0F6e9XfUg7nILo05M0TA/HRkRD/SeQ8+duOUA==",
+      "type": "package",
+      "path": "restsharp/106.6.10",
+      "files": [
+        ".nupkg.metadata",
+        ".signature.p7s",
+        "lib/net452/RestSharp.dll",
+        "lib/net452/RestSharp.xml",
+        "lib/netstandard2.0/RestSharp.dll",
+        "lib/netstandard2.0/RestSharp.xml",
+        "restsharp.106.6.10.nupkg.sha512",
+        "restsharp.nuspec"
+      ]
+    },
+    "SharpZipLib/1.2.0": {
+      "sha512": "zvWa/L02JHNatdtjya6Swpudb2YEHaOLHL1eRrqpjm71iGRNUNONO5adUF/9CHbSJbzhELW1UoH4NGy7n7+3bQ==",
+      "type": "package",
+      "path": "sharpziplib/1.2.0",
+      "files": [
+        ".nupkg.metadata",
+        ".signature.p7s",
+        "lib/net45/ICSharpCode.SharpZipLib.dll",
+        "lib/net45/ICSharpCode.SharpZipLib.pdb",
+        "lib/net45/ICSharpCode.SharpZipLib.xml",
+        "lib/netstandard2.0/ICSharpCode.SharpZipLib.dll",
+        "lib/netstandard2.0/ICSharpCode.SharpZipLib.pdb",
+        "lib/netstandard2.0/ICSharpCode.SharpZipLib.xml",
+        "sharpziplib.1.2.0.nupkg.sha512",
+        "sharpziplib.nuspec"
       ]
     },
     "System.Buffers/4.5.1": {
@@ -3429,8 +3703,10 @@
   },
   "projectFileDependencyGroups": {
     "net6.0": [
+      "AzStudioDataClasses >= 19.3.1.132",
       "Microsoft.EntityFrameworkCore.SqlServer >= 7.0.9",
       "Microsoft.EntityFrameworkCore.Tools >= 7.0.9",
+      "Microsoft.VisualStudio.Azure.Containers.Tools.Targets >= 1.18.1",
       "System.Diagnostics.Tools >= 4.3.0",
       "kavenegar >= 1.2.4"
     ]
@@ -3472,6 +3748,10 @@
       "net6.0": {
         "targetAlias": "net6.0",
         "dependencies": {
+          "AzStudioDataClasses": {
+            "target": "Package",
+            "version": "[19.3.1.132, )"
+          },
           "Microsoft.EntityFrameworkCore.SqlServer": {
             "target": "Package",
             "version": "[7.0.9, )"
@@ -3481,6 +3761,10 @@
             "suppressParent": "All",
             "target": "Package",
             "version": "[7.0.9, )"
+          },
+          "Microsoft.VisualStudio.Azure.Containers.Tools.Targets": {
+            "target": "Package",
+            "version": "[1.18.1, )"
           },
           "System.Diagnostics.Tools": {
             "target": "Package",
@@ -3512,5 +3796,37 @@
         "runtimeIdentifierGraphPath": "/usr/lib/dotnet/sdk/6.0.120/RuntimeIdentifierGraph.json"
       }
     }
-  }
+  },
+  "logs": [
+    {
+      "code": "NU1701",
+      "level": "Warning",
+      "warningLevel": 1,
+      "message": "Package 'AzStudioDataClasses 19.3.1.132' was restored using '.NETFramework,Version=v4.6.1, .NETFramework,Version=v4.6.2, .NETFramework,Version=v4.7, .NETFramework,Version=v4.7.1, .NETFramework,Version=v4.7.2, .NETFramework,Version=v4.8' instead of the project target framework 'net6.0'. This package may not be fully compatible with your project.",
+      "libraryId": "AzStudioDataClasses",
+      "targetGraphs": [
+        "net6.0"
+      ]
+    },
+    {
+      "code": "NU1701",
+      "level": "Warning",
+      "warningLevel": 1,
+      "message": "Package 'AzStudioKernel 19.3.1.166' was restored using '.NETFramework,Version=v4.6.1, .NETFramework,Version=v4.6.2, .NETFramework,Version=v4.7, .NETFramework,Version=v4.7.1, .NETFramework,Version=v4.7.2, .NETFramework,Version=v4.8' instead of the project target framework 'net6.0'. This package may not be fully compatible with your project.",
+      "libraryId": "AzStudioKernel",
+      "targetGraphs": [
+        "net6.0"
+      ]
+    },
+    {
+      "code": "NU1701",
+      "level": "Warning",
+      "warningLevel": 1,
+      "message": "Package 'BouncyCastle 1.8.5' was restored using '.NETFramework,Version=v4.6.1, .NETFramework,Version=v4.6.2, .NETFramework,Version=v4.7, .NETFramework,Version=v4.7.1, .NETFramework,Version=v4.7.2, .NETFramework,Version=v4.8' instead of the project target framework 'net6.0'. This package may not be fully compatible with your project.",
+      "libraryId": "BouncyCastle",
+      "targetGraphs": [
+        "net6.0"
+      ]
+    }
+  ]
 }

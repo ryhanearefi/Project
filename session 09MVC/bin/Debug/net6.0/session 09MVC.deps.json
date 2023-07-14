@@ -8,13 +8,43 @@
     ".NETCoreApp,Version=v6.0": {
       "session 09MVC/1.0.0": {
         "dependencies": {
+          "AzStudioDataClasses": "19.3.1.132",
           "Microsoft.EntityFrameworkCore.SqlServer": "7.0.9",
           "Microsoft.EntityFrameworkCore.Tools": "7.0.9",
+          "Microsoft.VisualStudio.Azure.Containers.Tools.Targets": "1.18.1",
           "System.Diagnostics.Tools": "4.3.0",
           "Kavenegar": "1.2.4"
         },
         "runtime": {
           "session 09MVC.dll": {}
+        }
+      },
+      "AzStudioDataClasses/19.3.1.132": {
+        "dependencies": {
+          "AzStudioKernel": "19.3.1.166",
+          "Newtonsoft.Json": "12.0.3",
+          "Newtonsoft.Json.Schema": "3.0.11"
+        },
+        "runtime": {
+          "lib/net461/AzStudioDataClasses.dll": {
+            "assemblyVersion": "19.3.1.132",
+            "fileVersion": "19.3.1.132"
+          }
+        }
+      },
+      "AzStudioKernel/19.3.1.166": {
+        "dependencies": {
+          "BouncyCastle": "1.8.5",
+          "Newtonsoft.Json": "12.0.3",
+          "Polly": "7.1.1",
+          "RestSharp": "106.6.10",
+          "SharpZipLib": "1.2.0"
+        },
+        "runtime": {
+          "lib/net461/AzStudioKernel.dll": {
+            "assemblyVersion": "19.3.1.166",
+            "fileVersion": "19.3.1.166"
+          }
         }
       },
       "Azure.Core/1.24.0": {
@@ -48,6 +78,14 @@
           "lib/netstandard2.0/Azure.Identity.dll": {
             "assemblyVersion": "1.6.0.0",
             "fileVersion": "1.600.22.20503"
+          }
+        }
+      },
+      "BouncyCastle/1.8.5": {
+        "runtime": {
+          "lib/BouncyCastle.Crypto.dll": {
+            "assemblyVersion": "1.8.5.0",
+            "fileVersion": "1.8.19031.1"
           }
         }
       },
@@ -424,6 +462,7 @@
           }
         }
       },
+      "Microsoft.VisualStudio.Azure.Containers.Tools.Targets/1.18.1": {},
       "Microsoft.Win32.Registry/5.0.0": {
         "dependencies": {
           "System.Security.AccessControl": "5.0.0",
@@ -465,6 +504,41 @@
           "lib/netstandard2.0/Newtonsoft.Json.dll": {
             "assemblyVersion": "12.0.0.0",
             "fileVersion": "12.0.3.23909"
+          }
+        }
+      },
+      "Newtonsoft.Json.Schema/3.0.11": {
+        "dependencies": {
+          "Newtonsoft.Json": "12.0.3"
+        },
+        "runtime": {
+          "lib/netstandard2.0/Newtonsoft.Json.Schema.dll": {
+            "assemblyVersion": "3.0.0.0",
+            "fileVersion": "3.0.11.23222"
+          }
+        }
+      },
+      "Polly/7.1.1": {
+        "runtime": {
+          "lib/netstandard2.0/Polly.dll": {
+            "assemblyVersion": "7.0.0.0",
+            "fileVersion": "7.1.1.0"
+          }
+        }
+      },
+      "RestSharp/106.6.10": {
+        "runtime": {
+          "lib/netstandard2.0/RestSharp.dll": {
+            "assemblyVersion": "106.6.10.0",
+            "fileVersion": "106.6.10.0"
+          }
+        }
+      },
+      "SharpZipLib/1.2.0": {
+        "runtime": {
+          "lib/netstandard2.0/ICSharpCode.SharpZipLib.dll": {
+            "assemblyVersion": "1.2.0.246",
+            "fileVersion": "1.2.0.246"
           }
         }
       },
@@ -734,6 +808,20 @@
       "serviceable": false,
       "sha512": ""
     },
+    "AzStudioDataClasses/19.3.1.132": {
+      "type": "package",
+      "serviceable": true,
+      "sha512": "sha512-luE+sFQnzrrWvCPfHH6kVEkVmOLlTJfeqL1xueFzw88TEBjDboh3hoHkk21ffs9h1n+0nQfANkMWHoJRQbX/4Q==",
+      "path": "azstudiodataclasses/19.3.1.132",
+      "hashPath": "azstudiodataclasses.19.3.1.132.nupkg.sha512"
+    },
+    "AzStudioKernel/19.3.1.166": {
+      "type": "package",
+      "serviceable": true,
+      "sha512": "sha512-J7Uzgw9TYaSCKyMUSCVQXg21S/k7+dcPds4v6lMc190ntc5s0jKvoh75RtzzeAAMs8rbJ2R2dROUtpxkK8jtPw==",
+      "path": "azstudiokernel/19.3.1.166",
+      "hashPath": "azstudiokernel.19.3.1.166.nupkg.sha512"
+    },
     "Azure.Core/1.24.0": {
       "type": "package",
       "serviceable": true,
@@ -747,6 +835,13 @@
       "sha512": "sha512-EycyMsb6rD2PK9P0SyibFfEhvWWttdrYhyPF4f41uzdB/44yQlV+2Wehxyg489Rj6gbPvSPgbKq0xsHJBhipZA==",
       "path": "azure.identity/1.6.0",
       "hashPath": "azure.identity.1.6.0.nupkg.sha512"
+    },
+    "BouncyCastle/1.8.5": {
+      "type": "package",
+      "serviceable": true,
+      "sha512": "sha512-196QWfvglefGd/Cr2C4hIdmA9HYkLFZovxJ7L0BAOFlNn+qlmVxqpxpcKGoC5AF4rOuoUq3ylzLgKZW5j4nmDQ==",
+      "path": "bouncycastle/1.8.5",
+      "hashPath": "bouncycastle.1.8.5.nupkg.sha512"
     },
     "Humanizer.Core/2.14.1": {
       "type": "package",
@@ -986,6 +1081,13 @@
       "path": "microsoft.sqlserver.server/1.0.0",
       "hashPath": "microsoft.sqlserver.server.1.0.0.nupkg.sha512"
     },
+    "Microsoft.VisualStudio.Azure.Containers.Tools.Targets/1.18.1": {
+      "type": "package",
+      "serviceable": true,
+      "sha512": "sha512-RtNQEQQ/bgaxzrsZEkPB+/DFaUgNiq8GtZz/R4lt+mKXPcEvEuawlbl0PB1s7ND9kvkUVZtMphPxE9Ma1VGiFg==",
+      "path": "microsoft.visualstudio.azure.containers.tools.targets/1.18.1",
+      "hashPath": "microsoft.visualstudio.azure.containers.tools.targets.1.18.1.nupkg.sha512"
+    },
     "Microsoft.Win32.Registry/5.0.0": {
       "type": "package",
       "serviceable": true,
@@ -1013,6 +1115,34 @@
       "sha512": "sha512-6mgjfnRB4jKMlzHSl+VD+oUc1IebOZabkbyWj2RiTgWwYPPuaK1H97G1sHqGwPlS5npiF5Q0OrxN1wni2n5QWg==",
       "path": "newtonsoft.json/12.0.3",
       "hashPath": "newtonsoft.json.12.0.3.nupkg.sha512"
+    },
+    "Newtonsoft.Json.Schema/3.0.11": {
+      "type": "package",
+      "serviceable": true,
+      "sha512": "sha512-wYT9dYZhDFSZceFSrKhNmqm5wHq0i40zgRNz1uHGsT2jol5tCymP8NCNb5xzlQfSNkCvVKQKfVD8eD1/hxUTyg==",
+      "path": "newtonsoft.json.schema/3.0.11",
+      "hashPath": "newtonsoft.json.schema.3.0.11.nupkg.sha512"
+    },
+    "Polly/7.1.1": {
+      "type": "package",
+      "serviceable": true,
+      "sha512": "sha512-okRGHVvn0bGCeMBgaCZShlSez8rxjgthyDf/NRTYsSh5kb8IbKnX7W15d3s95Kq9uzwj7tFYiXNrCvn6d0XoeA==",
+      "path": "polly/7.1.1",
+      "hashPath": "polly.7.1.1.nupkg.sha512"
+    },
+    "RestSharp/106.6.10": {
+      "type": "package",
+      "serviceable": true,
+      "sha512": "sha512-x1FM32hjnVOIn+DKtCs2Y4Q2DCUE5KW08NUXUd4GjgKjE+5PE0F6e9XfUg7nILo05M0TA/HRkRD/SeQ8+duOUA==",
+      "path": "restsharp/106.6.10",
+      "hashPath": "restsharp.106.6.10.nupkg.sha512"
+    },
+    "SharpZipLib/1.2.0": {
+      "type": "package",
+      "serviceable": true,
+      "sha512": "sha512-zvWa/L02JHNatdtjya6Swpudb2YEHaOLHL1eRrqpjm71iGRNUNONO5adUF/9CHbSJbzhELW1UoH4NGy7n7+3bQ==",
+      "path": "sharpziplib/1.2.0",
+      "hashPath": "sharpziplib.1.2.0.nupkg.sha512"
     },
     "System.Buffers/4.5.1": {
       "type": "package",
