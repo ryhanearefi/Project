@@ -1,6 +1,6 @@
 {
   "version": 2,
-  "dgSpecHash": "dXz2prBD85SmCbAsIxuJdZ4ReJY1VceR1ANweE/m+y/FmovPfQi/T9+xwhLntgsTuDQgrvRyqK6fyGilHa6EBw==",
+  "dgSpecHash": "2urKbId1LSOfMC28tQiaIpLMg/ysJOYDxrMTxQGeP/vhlPTUDGLHMoZZX25YfkbSq11Io781DRnxzY74mNziSQ==",
   "success": true,
   "projectFilePath": "/home/reyhane/Documents/reyhane/Project C#/session 09MVC/session 09MVC.csproj",
   "expectedPackageFiles": [
@@ -49,6 +49,9 @@
     "/home/reyhane/.nuget/packages/mono.texttemplating/2.2.1/mono.texttemplating.2.2.1.nupkg.sha512",
     "/home/reyhane/.nuget/packages/newtonsoft.json/12.0.3/newtonsoft.json.12.0.3.nupkg.sha512",
     "/home/reyhane/.nuget/packages/newtonsoft.json.schema/3.0.11/newtonsoft.json.schema.3.0.11.nupkg.sha512",
+    "/home/reyhane/.nuget/packages/nuget.common/6.6.1/nuget.common.6.6.1.nupkg.sha512",
+    "/home/reyhane/.nuget/packages/nuget.configuration/6.6.1/nuget.configuration.6.6.1.nupkg.sha512",
+    "/home/reyhane/.nuget/packages/nuget.frameworks/6.6.1/nuget.frameworks.6.6.1.nupkg.sha512",
     "/home/reyhane/.nuget/packages/polly/7.1.1/polly.7.1.1.nupkg.sha512",
     "/home/reyhane/.nuget/packages/restsharp/106.6.10/restsharp.106.6.10.nupkg.sha512",
     "/home/reyhane/.nuget/packages/sharpziplib/1.2.0/sharpziplib.1.2.0.nupkg.sha512",
@@ -89,7 +92,7 @@
       "code": "NU1701",
       "level": "Warning",
       "warningLevel": 1,
-      "message": "Package 'AzStudioDataClasses 19.3.1.132' was restored using '.NETFramework,Version=v4.6.1, .NETFramework,Version=v4.6.2, .NETFramework,Version=v4.7, .NETFramework,Version=v4.7.1, .NETFramework,Version=v4.7.2, .NETFramework,Version=v4.8' instead of the project target framework 'net6.0'. This package may not be fully compatible with your project.",
+      "message": "Package 'AzStudioDataClasses 19.3.1.132' was restored using '.NETFramework,Version=v4.6.1, .NETFramework,Version=v4.6.2, .NETFramework,Version=v4.7, .NETFramework,Version=v4.7.1, .NETFramework,Version=v4.7.2, .NETFramework,Version=v4.8, .NETFramework,Version=v4.8.1' instead of the project target framework 'net6.0'. This package may not be fully compatible with your project.",
       "libraryId": "AzStudioDataClasses",
       "targetGraphs": [
         "net6.0"
@@ -99,7 +102,7 @@
       "code": "NU1701",
       "level": "Warning",
       "warningLevel": 1,
-      "message": "Package 'AzStudioKernel 19.3.1.166' was restored using '.NETFramework,Version=v4.6.1, .NETFramework,Version=v4.6.2, .NETFramework,Version=v4.7, .NETFramework,Version=v4.7.1, .NETFramework,Version=v4.7.2, .NETFramework,Version=v4.8' instead of the project target framework 'net6.0'. This package may not be fully compatible with your project.",
+      "message": "Package 'AzStudioKernel 19.3.1.166' was restored using '.NETFramework,Version=v4.6.1, .NETFramework,Version=v4.6.2, .NETFramework,Version=v4.7, .NETFramework,Version=v4.7.1, .NETFramework,Version=v4.7.2, .NETFramework,Version=v4.8, .NETFramework,Version=v4.8.1' instead of the project target framework 'net6.0'. This package may not be fully compatible with your project.",
       "libraryId": "AzStudioKernel",
       "targetGraphs": [
         "net6.0"
@@ -109,7 +112,7 @@
       "code": "NU1701",
       "level": "Warning",
       "warningLevel": 1,
-      "message": "Package 'BouncyCastle 1.8.5' was restored using '.NETFramework,Version=v4.6.1, .NETFramework,Version=v4.6.2, .NETFramework,Version=v4.7, .NETFramework,Version=v4.7.1, .NETFramework,Version=v4.7.2, .NETFramework,Version=v4.8' instead of the project target framework 'net6.0'. This package may not be fully compatible with your project.",
+      "message": "Package 'BouncyCastle 1.8.5' was restored using '.NETFramework,Version=v4.6.1, .NETFramework,Version=v4.6.2, .NETFramework,Version=v4.7, .NETFramework,Version=v4.7.1, .NETFramework,Version=v4.7.2, .NETFramework,Version=v4.8, .NETFramework,Version=v4.8.1' instead of the project target framework 'net6.0'. This package may not be fully compatible with your project.",
       "libraryId": "BouncyCastle",
       "targetGraphs": [
         "net6.0"
