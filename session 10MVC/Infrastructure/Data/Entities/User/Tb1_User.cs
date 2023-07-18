@@ -1,4 +1,9 @@
-public class Tbl_User
+using System.ComponentModel.DataAnnotations;
+
+namespace Infrastructure.Data.Entities.User;
+
+public class Tb1_User
+
 {
 
   [Key]
