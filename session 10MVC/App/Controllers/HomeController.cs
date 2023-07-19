@@ -1,31 +1,41 @@
 ﻿using System.Diagnostics;
 using Microsoft.AspNetCore.Mvc;
 using App.Models;
+using Core.Myinterface;
 
 namespace App.Controllers;
 
 public class HomeController : Controller
 {
-    private readonly ILogger<HomeController> _logger;
+    
 
-    public HomeController(ILogger<HomeController> logger)
+    private readonly IUser _user;
+
+    public HomeController(IUser user)
     {
-        _logger = logger;
+         _user = user;
+
     }
+
 
     public IActionResult Index()
     {
         return View();
     }
 
-    public IActionResult Privacy()
+    //send sms
+
+    [HttpPost]
+    public IActionResult SenSms(string Phone)
     {
+        int Result = _user.SendSms(Phone);
+    //Add to db
+
+   
+
+
         return View();
     }
 
-    [ResponseCache(Duration = 0, Location = ResponseCacheLocation.None, NoStore = true)]
-    public IActionResult Error()
-    {
-        return View(new ErrorViewModel { RequestId = Activity.Current?.Id ?? HttpContext.TraceIdentifier });
-    }
+   
 }
