@@ -1,12 +1,13 @@
 {
   "version": 2,
-  "dgSpecHash": "yWvyu9SRFgNqoW83cldurNGxuUhtyBFH42PqkFnX9z9Ioa95QHehhGdDBKtA8Zc6rgl69wlqCyh/H+dt76MdAQ==",
+  "dgSpecHash": "FhlRMf0hW2oazqgoRZUq1iZCdBMz0p7ER3Rvuw1UiPjByGT37IGAQoN5sl+4Qw1iGWQP2+L3L5NT+piSIC85HQ==",
   "success": true,
   "projectFilePath": "/home/reyhane/Documents/reyhane/Project C#/session 10MVC/Infrastructure/Infrastructure.csproj",
   "expectedPackageFiles": [
     "/home/reyhane/.nuget/packages/azure.core/1.24.0/azure.core.1.24.0.nupkg.sha512",
     "/home/reyhane/.nuget/packages/azure.identity/1.6.0/azure.identity.1.6.0.nupkg.sha512",
     "/home/reyhane/.nuget/packages/humanizer.core/2.14.1/humanizer.core.2.14.1.nupkg.sha512",
+    "/home/reyhane/.nuget/packages/kavenegar/1.2.4/kavenegar.1.2.4.nupkg.sha512",
     "/home/reyhane/.nuget/packages/microsoft.bcl.asyncinterfaces/1.1.1/microsoft.bcl.asyncinterfaces.1.1.1.nupkg.sha512",
     "/home/reyhane/.nuget/packages/microsoft.csharp/4.5.0/microsoft.csharp.4.5.0.nupkg.sha512",
     "/home/reyhane/.nuget/packages/microsoft.data.sqlclient/5.0.2/microsoft.data.sqlclient.5.0.2.nupkg.sha512",
@@ -42,6 +43,7 @@
     "/home/reyhane/.nuget/packages/microsoft.win32.registry/5.0.0/microsoft.win32.registry.5.0.0.nupkg.sha512",
     "/home/reyhane/.nuget/packages/microsoft.win32.systemevents/5.0.0/microsoft.win32.systemevents.5.0.0.nupkg.sha512",
     "/home/reyhane/.nuget/packages/mono.texttemplating/2.2.1/mono.texttemplating.2.2.1.nupkg.sha512",
+    "/home/reyhane/.nuget/packages/newtonsoft.json/12.0.3/newtonsoft.json.12.0.3.nupkg.sha512",
     "/home/reyhane/.nuget/packages/system.buffers/4.5.1/system.buffers.4.5.1.nupkg.sha512",
     "/home/reyhane/.nuget/packages/system.codedom/4.4.0/system.codedom.4.4.0.nupkg.sha512",
     "/home/reyhane/.nuget/packages/system.configuration.configurationmanager/5.0.0/system.configuration.configurationmanager.5.0.0.nupkg.sha512",

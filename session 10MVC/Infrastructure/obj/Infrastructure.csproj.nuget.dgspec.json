@@ -104,6 +104,10 @@
               "suppressParent": "All",
               "target": "Package",
               "version": "[7.0.9, )"
+            },
+            "kavenegar": {
+              "target": "Package",
+              "version": "[1.2.4, )"
             }
           },
           "imports": [

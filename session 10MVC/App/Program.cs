@@ -1,7 +1,18 @@
+using Core.Myinterface;
+
 var builder = WebApplication.CreateBuilder(args);
 
 // Add services to the container.
 builder.Services.AddControllersWithViews();
+
+
+//adddbcontext
+ builder.Services.AddDbContext<Context>();
+
+ builder.Services.AddScoped<IUser, User>();
+
+
+
 
 var app = builder.Build();
 

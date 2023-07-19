@@ -5,7 +5,7 @@ namespace Core.Myinterface;
 public interface IUser
 {
 
-void SendSms(String phoneNumber);
+int SendSms(String phoneNumber);
 
 void AddUser(MUser user);
 
