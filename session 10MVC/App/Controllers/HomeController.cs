@@ -26,15 +26,17 @@ public class HomeController : Controller
     //send sms
 
     [HttpPost]
-    public IActionResult SenSms(string Phone)
+    public IActionResult SendSms(string Phone)
     {
-        int Result = _user.SendSms(Phone);
+      int Result = _user.SendSms(Phone);
     //Add to db
+      
+      
 
    
 
 
-        return View();
+        return RedirectToAction("index");
     }
 
    

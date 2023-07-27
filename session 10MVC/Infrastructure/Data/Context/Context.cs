@@ -10,7 +10,8 @@ public class Context:DbContext
 
  protected override void OnConfiguring(DbContextOptionsBuilder optionsBuilder)
   {
-     optionsBuilder.UseSqlServer(@"Server=.;Database=Clear;Trusted_Connection=SSPI;Encrypt=false;TrustServerCertificate=true");
+     //optionsBuilder.UseSqlServer(@"Server=.;Database=Clean;Trusted_Connection=SSPI;Encrypt=false;TrustServerCertificate=true");
+     optionsBuilder.UseSqlServer(@"Server=.;Database=Clean;Encrypt=false;TrustServerCertificate=true;User=sa;Password=1361APassword");
   }
 
 
