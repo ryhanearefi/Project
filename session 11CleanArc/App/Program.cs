@@ -1,4 +1,7 @@
 using Core.Myinterface;
+using Core.Interface.User;
+
+
 
 var builder = WebApplication.CreateBuilder(args);
 
@@ -10,6 +13,8 @@ builder.Services.AddControllersWithViews();
  builder.Services.AddDbContext<Context>();
 
  builder.Services.AddScoped<IUser, User>();
+
+ builder.Services.AddScoped<IStudent, Student>();
 
 
 

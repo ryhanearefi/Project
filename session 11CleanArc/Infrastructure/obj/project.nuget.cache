@@ -1,8 +1,8 @@
 {
   "version": 2,
-  "dgSpecHash": "FhlRMf0hW2oazqgoRZUq1iZCdBMz0p7ER3Rvuw1UiPjByGT37IGAQoN5sl+4Qw1iGWQP2+L3L5NT+piSIC85HQ==",
+  "dgSpecHash": "umtYfptogQH8GTCuA9iFwLu7SAcnsFuar8kTRHY4HLoxFCgp+RwfoA5DWsO5cgyAf5AaMBs3hB2qagKpttlV1A==",
   "success": true,
-  "projectFilePath": "/home/reyhane/Documents/reyhane/Project C#/session 10MVC/Infrastructure/Infrastructure.csproj",
+  "projectFilePath": "/home/reyhane/Documents/reyhane/Project C#/session 11CleanArc/Infrastructure/Infrastructure.csproj",
   "expectedPackageFiles": [
     "/home/reyhane/.nuget/packages/azure.core/1.24.0/azure.core.1.24.0.nupkg.sha512",
     "/home/reyhane/.nuget/packages/azure.identity/1.6.0/azure.identity.1.6.0.nupkg.sha512",

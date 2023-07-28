@@ -7217,11 +7217,11 @@
   "project": {
     "version": "1.0.0",
     "restore": {
-      "projectUniqueName": "/home/reyhane/Documents/reyhane/Project C#/session 10MVC/App/App.csproj",
+      "projectUniqueName": "/home/reyhane/Documents/reyhane/Project C#/session 11CleanArc/App/App.csproj",
       "projectName": "App",
-      "projectPath": "/home/reyhane/Documents/reyhane/Project C#/session 10MVC/App/App.csproj",
+      "projectPath": "/home/reyhane/Documents/reyhane/Project C#/session 11CleanArc/App/App.csproj",
       "packagesPath": "/home/reyhane/.nuget/packages/",
-      "outputPath": "/home/reyhane/Documents/reyhane/Project C#/session 10MVC/App/obj/",
+      "outputPath": "/home/reyhane/Documents/reyhane/Project C#/session 11CleanArc/App/obj/",
       "projectStyle": "PackageReference",
       "configFilePaths": [
         "/home/reyhane/.nuget/NuGet/NuGet.Config"
@@ -7237,11 +7237,11 @@
         "net6.0": {
           "targetAlias": "net6.0",
           "projectReferences": {
-            "/home/reyhane/Documents/reyhane/Project C#/session 10MVC/Core/Core.csproj": {
-              "projectPath": "/home/reyhane/Documents/reyhane/Project C#/session 10MVC/Core/Core.csproj"
+            "/home/reyhane/Documents/reyhane/Project C#/session 11CleanArc/Core/Core.csproj": {
+              "projectPath": "/home/reyhane/Documents/reyhane/Project C#/session 11CleanArc/Core/Core.csproj"
             },
-            "/home/reyhane/Documents/reyhane/Project C#/session 10MVC/Infrastructure/Infrastructure.csproj": {
-              "projectPath": "/home/reyhane/Documents/reyhane/Project C#/session 10MVC/Infrastructure/Infrastructure.csproj"
+            "/home/reyhane/Documents/reyhane/Project C#/session 11CleanArc/Infrastructure/Infrastructure.csproj": {
+              "projectPath": "/home/reyhane/Documents/reyhane/Project C#/session 11CleanArc/Infrastructure/Infrastructure.csproj"
             }
           }
         }

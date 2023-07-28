@@ -32,10 +32,6 @@ public class HomeController : Controller
     //Add to db
       
       
-
-   
-
-
         return RedirectToAction("index");
     }
 

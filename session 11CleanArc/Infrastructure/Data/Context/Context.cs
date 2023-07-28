@@ -7,6 +7,9 @@ public class Context:DbContext
 
  public DbSet<Tb1_User> Tb1_Users { get; set; }
 
+ //Tb1_Student
+ public DbSet<Tb1_Student> Tb1_Students { get; set; } 
+
 
  protected override void OnConfiguring(DbContextOptionsBuilder optionsBuilder)
   {
