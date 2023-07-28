@@ -33,8 +33,21 @@ public IActionResult delete(int id)
 }
 
 
+public IActionResult edit(int id)
+{
+     var student = _student.GetStudentById(id);
+     return View(student);
 
+}
 
+//UpdateStudent
+
+public IActionResult UpdateStudent(MStudent st)
+{
+     _student.UpdateStudent(st);
+     return RedirectToAction("index");
+
+}
 
 
 

@@ -1,0 +1,43 @@
+
+@model MStudent
+
+<style>
+  th,td{
+      text-align:  : center;
+  }
+
+</style>
+<form action="/student/Updatestudent" method="post">
+
+<div class="text-center p-3 row  border bg-white  justify-content-center ">
+
+  <div class="col-3 ">
+
+     <input type="text" asp-for="Id"style= "display:none;">
+
+      <input  required asp-for="Name" class="form-control" type="text" placeholder="name">
+
+
+  </div>
+  <div class="col-3 ">
+      <input  required asp-for="Family" class="form-control" type="text" placeholder="family">
+
+
+  </div>
+  <div class="col-3 ">
+      <input  required  asp-for="Phone" class="form-control" type="text" placeholder="Phone">
+
+
+  </div>
+
+  <div class="col-3 ">
+    <button type="submit" class="btn btn-success form-control">Update Info</button>
+
+
+  </div>
+
+
+
+</div>
+
+</form>

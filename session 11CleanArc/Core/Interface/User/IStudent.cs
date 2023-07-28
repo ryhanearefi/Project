@@ -18,5 +18,9 @@ public interface IStudent
 
    //Delete
    void DeleteStudent(int id);
+  
+
+  //Getby ID
+  MStudent GetStudentById(int id);
 
 }

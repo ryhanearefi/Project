@@ -55,10 +55,31 @@ public class Student : IStudent
     return st;
 
   }
-  
+
+  public MStudent GetStudentById(int id)
+  {
+    var student = db.Tb1_Students.Find(id);
+
+    MStudent ms = new MStudent();
+    ms.Name = student.Name;
+    ms.Family = student.Family;
+    ms.Phone = student.Phone;
+    ms.Id = student.Id;
+
+
+    return ms;
+
+  }
 
   public void UpdateStudent(MStudent student)
   {
-    throw new NotImplementedException();
+    var tb1Student = db.Tb1_Students.Find(student.Id);
+    tb1Student.Name=student.Name;
+    tb1Student.Family=student.Family;
+    tb1Student.Phone=student.Phone;
+
+
+  db.SaveChanges();
+
   }
 }
