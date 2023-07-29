@@ -30,9 +30,13 @@ public class HomeController : Controller
     {
       int Result = _user.SendSms(Phone);
     //Add to db
-      
-      
-        return RedirectToAction("index");
+    
+        return View();
+    }
+
+    public IActionResult Error()
+    {
+        return View();
     }
 
    

@@ -18374,6 +18374,11 @@
   "RootNamespace": "App",
   "Documents": [
     {
+      "FilePath": "/home/reyhane/Documents/reyhane/Project C#/session 11CleanArc/App/Areas/Admin/Views/_ViewStart.cshtml",
+      "TargetPath": "Areas\\Admin\\Views\\_ViewStart.cshtml",
+      "FileKind": "mvc"
+    },
+    {
       "FilePath": "/home/reyhane/Documents/reyhane/Project C#/session 11CleanArc/App/Views/Shared/_Layout.cshtml",
       "TargetPath": "Views\\Shared\\_Layout.cshtml",
       "FileKind": "mvc"
@@ -18381,6 +18386,11 @@
     {
       "FilePath": "/home/reyhane/Documents/reyhane/Project C#/session 11CleanArc/App/Views/_ViewStart.cshtml",
       "TargetPath": "Views\\_ViewStart.cshtml",
+      "FileKind": "mvc"
+    },
+    {
+      "FilePath": "/home/reyhane/Documents/reyhane/Project C#/session 11CleanArc/App/Areas/Admin/Views/Home/index.cshtml",
+      "TargetPath": "Areas\\Admin\\Views\\Home\\index.cshtml",
       "FileKind": "mvc"
     },
     {
@@ -18409,8 +18419,23 @@
       "FileKind": "mvc"
     },
     {
+      "FilePath": "/home/reyhane/Documents/reyhane/Project C#/session 11CleanArc/App/Views/Home/Error.cshtml",
+      "TargetPath": "Views\\Home\\Error.cshtml",
+      "FileKind": "mvc"
+    },
+    {
       "FilePath": "/home/reyhane/Documents/reyhane/Project C#/session 11CleanArc/App/Views/_ViewImports.cshtml",
       "TargetPath": "Views\\_ViewImports.cshtml",
+      "FileKind": "mvc"
+    },
+    {
+      "FilePath": "/home/reyhane/Documents/reyhane/Project C#/session 11CleanArc/App/Areas/Admin/Views/_ViewImports.cshtml",
+      "TargetPath": "Areas\\Admin\\Views\\_ViewImports.cshtml",
+      "FileKind": "mvc"
+    },
+    {
+      "FilePath": "/home/reyhane/Documents/reyhane/Project C#/session 11CleanArc/App/Areas/Admin/Views/Shared/_Layout.cshtml",
+      "TargetPath": "Areas\\Admin\\Views\\Shared\\_Layout.cshtml",
       "FileKind": "mvc"
     },
     {
