@@ -31,11 +31,7 @@ public class HomeController : Controller
       int Result = _user.SendSms(Phone);
     //Add to db
       
-      
-
-   
-
-
+     
         return RedirectToAction("index");
     }
 
