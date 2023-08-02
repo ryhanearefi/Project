@@ -23,7 +23,7 @@ public class HomeController : Controller
    private readonly IScoped _scoped2;
 
 
-   public HomeController(ISingletone singletone1, ISingletone singletone2, ITransient transient1, Transient transient2, IScoped scoped1, IScoped scoped2)
+   public HomeController(ISingletone singletone1, ISingletone singletone2, ITransient transient1, ITransient transient2, IScoped scoped1, IScoped scoped2)
    {
     _singletone1 = singletone1;
     _singletone2 = singletone2;
@@ -33,8 +33,6 @@ public class HomeController : Controller
     _scoped2 = scoped2;
 
    }
-
-
 
     public IActionResult Index()
     {

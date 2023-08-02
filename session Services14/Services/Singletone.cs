@@ -9,8 +9,6 @@ public class Singletone : ISingletone
 
 
 
-
-
   public string GetGuid()
   {
     return _guid.ToString();
