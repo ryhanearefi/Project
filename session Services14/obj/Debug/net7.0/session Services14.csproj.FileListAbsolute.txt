@@ -1,0 +1,31 @@
+/home/reyhane/Documents/reyhane/Project C#/session Services14/bin/Debug/net7.0/appsettings.Development.json
+/home/reyhane/Documents/reyhane/Project C#/session Services14/bin/Debug/net7.0/appsettings.json
+/home/reyhane/Documents/reyhane/Project C#/session Services14/bin/Debug/net7.0/session Services14.staticwebassets.runtime.json
+/home/reyhane/Documents/reyhane/Project C#/session Services14/bin/Debug/net7.0/session Services14
+/home/reyhane/Documents/reyhane/Project C#/session Services14/bin/Debug/net7.0/session Services14.deps.json
+/home/reyhane/Documents/reyhane/Project C#/session Services14/bin/Debug/net7.0/session Services14.runtimeconfig.json
+/home/reyhane/Documents/reyhane/Project C#/session Services14/bin/Debug/net7.0/session Services14.dll
+/home/reyhane/Documents/reyhane/Project C#/session Services14/bin/Debug/net7.0/session Services14.pdb
+/home/reyhane/Documents/reyhane/Project C#/session Services14/obj/Debug/net7.0/session Services14.csproj.AssemblyReference.cache
+/home/reyhane/Documents/reyhane/Project C#/session Services14/obj/Debug/net7.0/session Services14.GeneratedMSBuildEditorConfig.editorconfig
+/home/reyhane/Documents/reyhane/Project C#/session Services14/obj/Debug/net7.0/session Services14.AssemblyInfoInputs.cache
+/home/reyhane/Documents/reyhane/Project C#/session Services14/obj/Debug/net7.0/session Services14.AssemblyInfo.cs
+/home/reyhane/Documents/reyhane/Project C#/session Services14/obj/Debug/net7.0/session Services14.csproj.CoreCompileInputs.cache
+/home/reyhane/Documents/reyhane/Project C#/session Services14/obj/Debug/net7.0/session Services14.MvcApplicationPartsAssemblyInfo.cache
+/home/reyhane/Documents/reyhane/Project C#/session Services14/obj/Debug/net7.0/session Services14.RazorAssemblyInfo.cache
+/home/reyhane/Documents/reyhane/Project C#/session Services14/obj/Debug/net7.0/session Services14.RazorAssemblyInfo.cs
+/home/reyhane/Documents/reyhane/Project C#/session Services14/obj/Debug/net7.0/staticwebassets/msbuild.session Services14.Microsoft.AspNetCore.StaticWebAssets.props
+/home/reyhane/Documents/reyhane/Project C#/session Services14/obj/Debug/net7.0/staticwebassets/msbuild.build.session Services14.props
+/home/reyhane/Documents/reyhane/Project C#/session Services14/obj/Debug/net7.0/staticwebassets/msbuild.buildMultiTargeting.session Services14.props
+/home/reyhane/Documents/reyhane/Project C#/session Services14/obj/Debug/net7.0/staticwebassets/msbuild.buildTransitive.session Services14.props
+/home/reyhane/Documents/reyhane/Project C#/session Services14/obj/Debug/net7.0/staticwebassets.pack.json
+/home/reyhane/Documents/reyhane/Project C#/session Services14/obj/Debug/net7.0/staticwebassets.build.json
+/home/reyhane/Documents/reyhane/Project C#/session Services14/obj/Debug/net7.0/staticwebassets.development.json
+/home/reyhane/Documents/reyhane/Project C#/session Services14/obj/Debug/net7.0/scopedcss/Views/Shared/_Layout.cshtml.rz.scp.css
+/home/reyhane/Documents/reyhane/Project C#/session Services14/obj/Debug/net7.0/scopedcss/bundle/session Services14.styles.css
+/home/reyhane/Documents/reyhane/Project C#/session Services14/obj/Debug/net7.0/scopedcss/projectbundle/session Services14.bundle.scp.css
+/home/reyhane/Documents/reyhane/Project C#/session Services14/obj/Debug/net7.0/session Services14.dll
+/home/reyhane/Documents/reyhane/Project C#/session Services14/obj/Debug/net7.0/refint/session Services14.dll
+/home/reyhane/Documents/reyhane/Project C#/session Services14/obj/Debug/net7.0/session Services14.pdb
+/home/reyhane/Documents/reyhane/Project C#/session Services14/obj/Debug/net7.0/session Services14.genruntimeconfig.cache
+/home/reyhane/Documents/reyhane/Project C#/session Services14/obj/Debug/net7.0/ref/session Services14.dll
