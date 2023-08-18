@@ -1,0 +1,13 @@
+{
+  "version": 2,
+  "dgSpecHash": "GBslI14cQk7ZR4epupeAwhshQPQZ3ac7Tu1WZG1Tiqg2H8lP9k2h8Q4CS9lWz37T255fU+5bv/1eEopWlc1+Nw==",
+  "success": true,
+  "projectFilePath": "/home/reyhane/Documents/reyhane/Project C#/CQRS/CQRS.csproj",
+  "expectedPackageFiles": [
+    "/home/reyhane/.nuget/packages/mediatr/11.0.0/mediatr.11.0.0.nupkg.sha512",
+    "/home/reyhane/.nuget/packages/mediatr.contracts/1.0.1/mediatr.contracts.1.0.1.nupkg.sha512",
+    "/home/reyhane/.nuget/packages/mediatr.extensions.microsoft.dependencyinjection/11.1.0/mediatr.extensions.microsoft.dependencyinjection.11.1.0.nupkg.sha512",
+    "/home/reyhane/.nuget/packages/microsoft.extensions.dependencyinjection.abstractions/7.0.0/microsoft.extensions.dependencyinjection.abstractions.7.0.0.nupkg.sha512"
+  ],
+  "logs": []
+}
