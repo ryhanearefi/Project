@@ -1,9 +1,20 @@
+using System.Reflection;
+using MediatR;
+
 var builder = WebApplication.CreateBuilder(args);
 
 // Add services to the container.
 builder.Services.AddControllersWithViews();
 
+//adddbcontext
+builder.Services.AddDbContext<Context>();
+
+//mediatr
+builder.Services.AddMediatR(Assembly.GetExecutingAssembly());
+
+
 var app = builder.Build();
+
 
 // Configure the HTTP request pipeline.
 if (!app.Environment.IsDevelopment())

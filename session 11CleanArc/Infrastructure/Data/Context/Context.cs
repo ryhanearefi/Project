@@ -13,7 +13,7 @@ public class Context:DbContext
 
  protected override void OnConfiguring(DbContextOptionsBuilder optionsBuilder)
   {
-     //optionsBuilder.UseSqlServer(@"Server=.;Database=Clean;Trusted_Connection=SSPI;Encrypt=false;TrustServerCertificate=true");
+     //docker run -itd --network=host -e "ACCEPT_EULA=Y" -e "MSSQL_SA_PASSWORD=1361APassword" mcr.microsoft.com/mssql/server:2019-latest
      optionsBuilder.UseSqlServer(@"Server=.;Database=Clean;Encrypt=false;TrustServerCertificate=true;User=sa;Password=1361APassword");
   }
 

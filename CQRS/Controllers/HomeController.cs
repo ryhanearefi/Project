@@ -1,31 +1,28 @@
-﻿using System.Diagnostics;
-using Microsoft.AspNetCore.Mvc;
-using CQRS.Models;
+﻿using Microsoft.AspNetCore.Mvc;
+using MediatR;
+
 
 namespace CQRS.Controllers;
 
 public class HomeController : Controller
 {
-    private readonly ILogger<HomeController> _logger;
+ 
+    private readonly IMediator _mediator;
 
-    public HomeController(ILogger<HomeController> logger)
+    public HomeController(IMediator mediator)
     {
-        _logger = logger;
+        _mediator = mediator;
     }
-
     public IActionResult Index()
     {
         return View();
     }
 
-    public IActionResult Privacy()
-    {
-        return View();
-    }
 
-    [ResponseCache(Duration = 0, Location = ResponseCacheLocation.None, NoStore = true)]
-    public IActionResult Error()
+public IActionResult add(SaveProductCommand pr)
     {
-        return View(new ErrorViewModel { RequestId = Activity.Current?.Id ?? HttpContext.TraceIdentifier });
+         var result = _mediator.Send(pr);
+         return RedirectToAction("Index");
     }
+ 
 }
