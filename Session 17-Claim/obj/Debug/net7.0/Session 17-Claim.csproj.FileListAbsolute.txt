@@ -28,3 +28,5 @@
 /home/reyhane/Documents/reyhane/Project C#/Session 17-Claim/obj/Debug/net7.0/Session 17-Claim.pdb
 /home/reyhane/Documents/reyhane/Project C#/Session 17-Claim/obj/Debug/net7.0/Session 17-Claim.genruntimeconfig.cache
 /home/reyhane/Documents/reyhane/Project C#/Session 17-Claim/obj/Debug/net7.0/ref/Session 17-Claim.dll
+/home/reyhane/Documents/reyhane/Project C#/Session 17-Claim/obj/Debug/net7.0/scopedcss/Areas/Admin/Views/Shared/_Layout.cshtml.rz.scp.css
+/home/reyhane/Documents/reyhane/Project C#/Session 17-Claim/obj/Debug/net7.0/scopedcss/Areas/PanelUser/Views/Shared/_Layout.cshtml.rz.scp.css
