@@ -1,4 +1,7 @@
 ﻿using System.Diagnostics;
+using System.Security.Claims;
+using Microsoft.AspNetCore.Authentication;
+using Microsoft.AspNetCore.Authentication.Cookies;
 using Microsoft.AspNetCore.Mvc;
 using Session_17_Claim.Models;
 
@@ -6,26 +9,52 @@ namespace Session_17_Claim.Controllers;
 
 public class HomeController : Controller
 {
-    private readonly ILogger<HomeController> _logger;
-
-    public HomeController(ILogger<HomeController> logger)
-    {
-        _logger = logger;
-    }
-
+    
     public IActionResult Index()
     {
         return View();
     }
-
-    public IActionResult Privacy()
+    
+//AccesDenied
+    public IActionResult AccesDenied()
     {
         return View();
     }
 
-    [ResponseCache(Duration = 0, Location = ResponseCacheLocation.None, NoStore = true)]
-    public IActionResult Error()
+    public IActionResult Login()
     {
-        return View(new ErrorViewModel { RequestId = Activity.Current?.Id ?? HttpContext.TraceIdentifier });
+        return View();
     }
+
+    [HttpPost]
+    public IActionResult check(string username,string password){
+        if(username=="admin" && password=="123")
+        {
+            var claims=new List<Claim>
+            {
+                new Claim(ClaimTypes.Name,"Ali"),
+                new Claim(ClaimTypes.Role,"Admin"),
+                new Claim(ClaimTypes.NameIdentifier,"1"),
+            };
+
+
+         var identity=new ClaimsIdentity(claims, CookieAuthenticationDefaults.AuthenticationScheme);
+         
+         var principal=new ClaimsPrincipal(identity);
+
+         //sign in
+         HttpContext.SignInAsync(principal);
+
+
+    
+            return RedirectToAction("Index","Home",new { area="Admin"});
+        }
+        else
+        {
+            return RedirectToAction("Login");
+        }
+    }
+
+    
+
 }

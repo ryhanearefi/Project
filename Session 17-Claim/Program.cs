@@ -1,7 +1,17 @@
+using Microsoft.AspNetCore.Authentication.Cookies;
+
 var builder = WebApplication.CreateBuilder(args);
 
 // Add services to the container.
 builder.Services.AddControllersWithViews();
+
+//Authentication
+builder.Services.AddAuthentication().AddCookie(options => {
+    options.LoginPath = "/home/AccesDenied";
+    
+});
+
+
 
 var app = builder.Build();
 
@@ -18,6 +28,9 @@ app.UseStaticFiles();
 
 app.UseRouting();
 
+//who is
+app.UseAuthentication();
+//what can do?
 app.UseAuthorization();
 
 app.MapAreaControllerRoute(
