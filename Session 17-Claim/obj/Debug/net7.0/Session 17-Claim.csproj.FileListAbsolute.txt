@@ -1,11 +1,4 @@
-/home/reyhane/Documents/reyhane/Project C#/Session 17-Claim/bin/Debug/net7.0/appsettings.Development.json
-/home/reyhane/Documents/reyhane/Project C#/Session 17-Claim/bin/Debug/net7.0/appsettings.json
-/home/reyhane/Documents/reyhane/Project C#/Session 17-Claim/bin/Debug/net7.0/Session 17-Claim.staticwebassets.runtime.json
-/home/reyhane/Documents/reyhane/Project C#/Session 17-Claim/bin/Debug/net7.0/Session 17-Claim
-/home/reyhane/Documents/reyhane/Project C#/Session 17-Claim/bin/Debug/net7.0/Session 17-Claim.deps.json
-/home/reyhane/Documents/reyhane/Project C#/Session 17-Claim/bin/Debug/net7.0/Session 17-Claim.runtimeconfig.json
-/home/reyhane/Documents/reyhane/Project C#/Session 17-Claim/bin/Debug/net7.0/Session 17-Claim.dll
-/home/reyhane/Documents/reyhane/Project C#/Session 17-Claim/bin/Debug/net7.0/Session 17-Claim.pdb
+/home/reyhane/Documents/reyhane/Project C#/Session 17-Claim/obj/Debug/net7.0/Session 17-Claim.csproj.AssemblyReference.cache
 /home/reyhane/Documents/reyhane/Project C#/Session 17-Claim/obj/Debug/net7.0/Session 17-Claim.GeneratedMSBuildEditorConfig.editorconfig
 /home/reyhane/Documents/reyhane/Project C#/Session 17-Claim/obj/Debug/net7.0/Session 17-Claim.AssemblyInfoInputs.cache
 /home/reyhane/Documents/reyhane/Project C#/Session 17-Claim/obj/Debug/net7.0/Session 17-Claim.AssemblyInfo.cs
@@ -13,20 +6,3 @@
 /home/reyhane/Documents/reyhane/Project C#/Session 17-Claim/obj/Debug/net7.0/Session 17-Claim.MvcApplicationPartsAssemblyInfo.cache
 /home/reyhane/Documents/reyhane/Project C#/Session 17-Claim/obj/Debug/net7.0/Session 17-Claim.RazorAssemblyInfo.cache
 /home/reyhane/Documents/reyhane/Project C#/Session 17-Claim/obj/Debug/net7.0/Session 17-Claim.RazorAssemblyInfo.cs
-/home/reyhane/Documents/reyhane/Project C#/Session 17-Claim/obj/Debug/net7.0/staticwebassets/msbuild.Session 17-Claim.Microsoft.AspNetCore.StaticWebAssets.props
-/home/reyhane/Documents/reyhane/Project C#/Session 17-Claim/obj/Debug/net7.0/staticwebassets/msbuild.build.Session 17-Claim.props
-/home/reyhane/Documents/reyhane/Project C#/Session 17-Claim/obj/Debug/net7.0/staticwebassets/msbuild.buildMultiTargeting.Session 17-Claim.props
-/home/reyhane/Documents/reyhane/Project C#/Session 17-Claim/obj/Debug/net7.0/staticwebassets/msbuild.buildTransitive.Session 17-Claim.props
-/home/reyhane/Documents/reyhane/Project C#/Session 17-Claim/obj/Debug/net7.0/staticwebassets.pack.json
-/home/reyhane/Documents/reyhane/Project C#/Session 17-Claim/obj/Debug/net7.0/staticwebassets.build.json
-/home/reyhane/Documents/reyhane/Project C#/Session 17-Claim/obj/Debug/net7.0/staticwebassets.development.json
-/home/reyhane/Documents/reyhane/Project C#/Session 17-Claim/obj/Debug/net7.0/scopedcss/Views/Shared/_Layout.cshtml.rz.scp.css
-/home/reyhane/Documents/reyhane/Project C#/Session 17-Claim/obj/Debug/net7.0/scopedcss/bundle/Session 17-Claim.styles.css
-/home/reyhane/Documents/reyhane/Project C#/Session 17-Claim/obj/Debug/net7.0/scopedcss/projectbundle/Session 17-Claim.bundle.scp.css
-/home/reyhane/Documents/reyhane/Project C#/Session 17-Claim/obj/Debug/net7.0/Session 17-Claim.dll
-/home/reyhane/Documents/reyhane/Project C#/Session 17-Claim/obj/Debug/net7.0/refint/Session 17-Claim.dll
-/home/reyhane/Documents/reyhane/Project C#/Session 17-Claim/obj/Debug/net7.0/Session 17-Claim.pdb
-/home/reyhane/Documents/reyhane/Project C#/Session 17-Claim/obj/Debug/net7.0/Session 17-Claim.genruntimeconfig.cache
-/home/reyhane/Documents/reyhane/Project C#/Session 17-Claim/obj/Debug/net7.0/ref/Session 17-Claim.dll
-/home/reyhane/Documents/reyhane/Project C#/Session 17-Claim/obj/Debug/net7.0/scopedcss/Areas/Admin/Views/Shared/_Layout.cshtml.rz.scp.css
-/home/reyhane/Documents/reyhane/Project C#/Session 17-Claim/obj/Debug/net7.0/scopedcss/Areas/PanelUser/Views/Shared/_Layout.cshtml.rz.scp.css
