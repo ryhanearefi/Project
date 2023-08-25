@@ -1,11 +1,13 @@
-using Microsoft.EntityFrameworkCore
+using Microsoft.EntityFrameworkCore;
+
 
 public class Context:DbContext
+
 { 
    //dbset
-   public DbSet<Table_User> Table_Users {get; set;}
-   public DbSet<Table_Role> Table_Roles {get; set;}
-   public DbSet<Table_RoleUser> Table_RoleUsers {get; set;}
+   public DbSet<Table_User>Table_Users {get; set;}
+   public DbSet<Table_Role>Table_Roles {get; set;}
+   public DbSet<Table_RoleUser>Table_RoleUsers {get; set;}
 
 
   protected override void OnConfiguring(DbContextOptionsBuilder optionsBuilder)

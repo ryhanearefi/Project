@@ -9,6 +9,12 @@ namespace Session_17_Claim.Controllers;
 
 public class HomeController : Controller
 {
+
+    private readonly Context db;
+    public HomeController(Context _db)
+    {
+        db = _db;
+    }
     
     public IActionResult Index()
     {
@@ -27,14 +33,29 @@ public class HomeController : Controller
     }
 
     [HttpPost]
-    public IActionResult check(string username,string password){
-        if(username=="admin" && password=="123")
-        {
+    public IActionResult check(string username,string password)
+    {
+        var ExistUser=db.Table_User.where(c=>c.username==username && c.password==password).FirstOrDefault;
+
+
+
+
+        if(ExistUser!=null)
+        { 
+             //get id Role
+             int IdRole=db.Table_RoleUsers.where(c=>c.UserId==ExistUser.id).FirstOrDefault().RoleId;
+
+             string RoleName=db.Table_Roles.where(c=>c.IdRole).FirstOrDefault.RoleName;
+
+
+
+
             var claims=new List<Claim>
             {
-                new Claim(ClaimTypes.Name,"Ali"),
-                new Claim(ClaimTypes.Role,"Admin"),
-                new Claim(ClaimTypes.NameIdentifier,"1"),
+
+                new Claim(ClaimTypes.Name,ExistUser.Name),
+                new Claim(ClaimTypes.Role,RoleName),
+                new Claim(ClaimTypes.NameIdentifier,ExistUser.id.Tostring()),
             };
 
 

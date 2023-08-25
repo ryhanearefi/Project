@@ -1,6 +1,7 @@
-public class Table_Roles
+using System.ComponentModel.DataAnnotations;
+public class Table_Role
 {
-  [key]
+  [Key]
    public int Id { get; set; }
 
    public string RoleName { get; set; }

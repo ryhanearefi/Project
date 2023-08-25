@@ -11,6 +11,9 @@ builder.Services.AddAuthentication().AddCookie(options => {
     
 });
 
+//add dbcontext
+builder.Services.AddDbContext<Context>();
+
 
 
 var app = builder.Build();

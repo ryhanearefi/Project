@@ -1,6 +1,8 @@
-public class Table_user
+using System.ComponentModel.DataAnnotations;
+
+public class Table_User
 {
-  [key]
+  [Key]
   public int id {get; set; }
   public string username {get; set; }
   public string password {get; set; }
@@ -9,12 +11,5 @@ public class Table_user
   public string Family {get; set; }
   public string Email {get; set; }
   public string Mobile {get; set; } 
-
-
-
-
-
-
-
  
 }
