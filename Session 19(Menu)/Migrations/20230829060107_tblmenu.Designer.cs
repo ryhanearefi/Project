@@ -4,13 +4,14 @@ using Microsoft.EntityFrameworkCore.Infrastructure;
 using Microsoft.EntityFrameworkCore.Metadata;
 using Microsoft.EntityFrameworkCore.Migrations;
 using Microsoft.EntityFrameworkCore.Storage.ValueConversion;
+using Session_19_Menu_.Models.Context;
 
 #nullable disable
 
 namespace Session_19_Menu_.Migrations
 {
     [DbContext(typeof(Context))]
-    [Migration("20230828121313_tblmenu")]
+    [Migration("20230829060107_tblmenu")]
     partial class tblmenu
     {
         /// <inheritdoc />
@@ -35,9 +36,8 @@ namespace Session_19_Menu_.Migrations
                         .IsRequired()
                         .HasColumnType("nvarchar(max)");
 
-                    b.Property<string>("ParentId")
-                        .IsRequired()
-                        .HasColumnType("nvarchar(max)");
+                    b.Property<int>("ParentId")
+                        .HasColumnType("int");
 
                     b.Property<bool>("Status")
                         .HasColumnType("bit");

@@ -2,6 +2,8 @@ using Microsoft.EntityFrameworkCore;
 
 
 
+
+namespace Session_19_Menu_.Models.Context;
 public class Context : DbContext
 
 {
