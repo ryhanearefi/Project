@@ -1,0 +1,67 @@
+﻿<br>
+<br>
+<style>
+    input,select{
+        padding: 10px;
+        margin: 10px;
+    }
+    button{
+        padding: 10px;
+        margin: 10px;
+    }
+    table{
+        border: 1px solid black;
+        width: 100%;
+    }
+    th{
+        border: 1px solid black;
+        padding: 10px;
+    }
+    td{
+        border: 1px solid black;
+        padding: 10px;
+    }
+</style>
+
+<div style="padding: 20px;margin-top: 120px;text-align: center; border:2px solid black;margin:120px">
+
+ <br>
+ <br>
+
+ <form action="/admin/home/add" method="post">
+  <div>
+     <input required type="text" placeholder="Catname" name="CatName" >
+     <select name="ParentId">
+        <option value="0">ParentName</option>
+     </select>
+
+
+     <button type="submit">Save Cat</button>
+  </div>
+  </form>
+
+
+
+
+
+
+
+  <div style="margin-top: 20px;text-align: center">
+    <table>
+        <tr>
+            <th>Catname</th>
+            <th>ParentName</th>
+            <th>Action</th>
+        </tr>
+        <tr>
+            <td>Catname</td>
+            <td>ParentName</td>
+            <td>
+                <button type="button">Edit</button>
+                <button type="button">Delete</button>
+            </td>
+        </tr>
+    </table>
+  </div>
+
+</div>
