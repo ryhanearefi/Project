@@ -1,14 +1,13 @@
 using Microsoft.EntityFrameworkCore;
-
-
-
+using Session_19_Menu_.Models.Entities;
 
 namespace Session_19_Menu_.Models.Context;
 public class Context : DbContext
 
 {
-  //dbset
-  public DbSet<Tbl_Menu> Tbl_Menus { get; set; }
+    //dbset
+    public DbSet<Tbl_Menu>Tbl_Menus{ get; set; }
+    public object Tbl_Menu {get;internal set;}
 
 
   protected override void OnConfiguring(DbContextOptionsBuilder optionsBuilder)

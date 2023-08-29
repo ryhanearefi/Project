@@ -1,7 +1,8 @@
-﻿using System.Diagnostics;
+﻿using Session_19_Menu_.Models;
+using Microsoft.AspNetCore.Mvc.Rendering;
 using Microsoft.AspNetCore.Mvc;
 using Session_19_Menu_.Models.Context;
-
+using Session_19_Menu_.Models.Entities;
 
 namespace Session_19_Menu_.Admin.Controllers;
 [Area("Admin")]
@@ -32,6 +33,7 @@ public class HomeController : Controller
         };
         _context.Tbl_Menus.Add(Tbl_Menu);
         _context.SaveChanges();
+
         return RedirectToAction("Index");
         
     }  
