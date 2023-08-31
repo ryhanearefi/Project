@@ -6,7 +6,7 @@ public class Context : DbContext
 
 {
     //dbset
-    public DbSet<Tbl_Menu>Tbl_Menus{ get; set; }
+    public DbSet<Tbl_Menu> Tbl_Menus { get; set; }
     public object Tbl_Menu {get;internal set;}
 
 

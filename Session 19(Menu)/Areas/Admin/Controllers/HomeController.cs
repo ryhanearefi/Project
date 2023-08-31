@@ -18,6 +18,25 @@ public class HomeController : Controller
 
     public IActionResult Index()
     {
+
+        var Tbl_Menus = _context.Tbl_Menus.OrderByDescending(x=>x.Id).ToList();
+        //new select 
+        ViewBag.menu=new SelectList(Tbl_Menus,"Id","CatName"); 
+        List<Menu>menus= new List<Menu>();
+        foreach (var item in Tbl_Menus)
+        {
+           var menu = new Menu()
+           {
+            Id=item.Id,
+            Name=item.CatName,
+            ParentName = item.ParentId ==0 ? "دسته اصلی": Tbl_Menus.FirstOrDefault(x => x.Id == item.ParentId).CatName
+           };
+           menus.Add(menu);
+        }
+
+
+        ViewBag.Table=menus;
+
         return View();
     }
 

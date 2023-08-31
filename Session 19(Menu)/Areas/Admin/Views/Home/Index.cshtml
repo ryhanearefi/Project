@@ -31,7 +31,8 @@
  <form action="/admin/home/add" method="post">
   <div>
      <input required type="text" placeholder="Catname" name="CatName" >
-     <select name="ParentId">
+
+     <select name="ParentId" asp-items="@ViewBag.menu">
         <option value="0">ParentName</option>
      </select>
 
@@ -53,14 +54,21 @@
             <th>ParentName</th>
             <th>Action</th>
         </tr>
+     @foreach(var item in ViewBag.Table)
+     {
+
         <tr>
-            <td>Catname</td>
-            <td>ParentName</td>
+            <td>@item.Name</td>
+            <td>@item.ParentName</td>
             <td>
                 <button type="button">Edit</button>
                 <button type="button">Delete</button>
             </td>
         </tr>
+     }
+
+
+        
     </table>
   </div>
 
