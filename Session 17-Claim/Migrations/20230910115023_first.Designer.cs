@@ -10,7 +10,7 @@ using Microsoft.EntityFrameworkCore.Storage.ValueConversion;
 namespace Session_17_Claim.Migrations
 {
     [DbContext(typeof(Context))]
-    [Migration("20230825204531_first")]
+    [Migration("20230910115023_first")]
     partial class first
     {
         /// <inheritdoc />
@@ -30,6 +30,9 @@ namespace Session_17_Claim.Migrations
                         .HasColumnType("int");
 
                     SqlServerPropertyBuilderExtensions.UseIdentityColumn(b.Property<int>("Id"));
+
+                    b.Property<bool>("IdRole")
+                        .HasColumnType("bit");
 
                     b.Property<bool>("Menu_Privacy")
                         .HasColumnType("bit");

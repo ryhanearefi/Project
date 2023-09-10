@@ -17,7 +17,8 @@ namespace Session_17_Claim.Migrations
                     Id = table.Column<int>(type: "int", nullable: false)
                         .Annotation("SqlServer:Identity", "1, 1"),
                     RoleName = table.Column<string>(type: "nvarchar(max)", nullable: false),
-                    Menu_Privacy = table.Column<bool>(type: "bit", nullable: false)
+                    Menu_Privacy = table.Column<bool>(type: "bit", nullable: false),
+                    IdRole = table.Column<bool>(type: "bit", nullable: false)
                 },
                 constraints: table =>
                 {

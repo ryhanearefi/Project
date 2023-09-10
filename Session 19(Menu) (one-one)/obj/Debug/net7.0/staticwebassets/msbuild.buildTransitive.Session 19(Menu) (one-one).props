@@ -1,0 +1,3 @@
+﻿<Project>
+  <Import Project="../buildMultiTargeting/Session 19(Menu) (one-one).props" />
+</Project>

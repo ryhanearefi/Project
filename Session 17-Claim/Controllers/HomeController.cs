@@ -1,4 +1,5 @@
-﻿using System.Diagnostics;
+﻿using System.Data.Common;
+using System.Diagnostics;
 using System.Linq;
 using System.Security.Claims;
 using Microsoft.AspNetCore.Authentication;
@@ -20,6 +21,7 @@ public class HomeController : Controller
     
     public IActionResult Index()
     {
+        ViewBag.Users=_context.Table_Users.ToList();
         return View();
     }
     
@@ -60,6 +62,15 @@ public class HomeController : Controller
             return RedirectToAction("Login");
         }
         
+    }
+
+    public IActionResult AddUser(Table_User user)
+    {
+
+       _context.Table_Users.Add(user);
+       _context.SaveChanges();
+
+       return RedirectToAction("index");
     }
     
     

@@ -8,28 +8,58 @@
     </div>
 
     <div class="col-4">
-    <input type="text" class="form-control" asp-for="username" placeholder="username">
+    <input required type="text" class="form-control" asp-for="username" placeholder="username">
     </div>
     
     <div class="col-4">
-    <input type="text" class="form-control" asp-for="password" placeholder="password">
+    <input required type="text" class="form-control" asp-for="password" placeholder="password">
     </div>
      
      <div class="col-4">
-    <input type="text" class="form-control" asp-for="Family" placeholder="family">
+    <input required type="text" class="form-control" asp-for="Family" placeholder="family">
     </div>
 
      <div class="col-4">
-    <input type="text" class="form-control" asp-for="Mobile" placeholder="mobile">
+    <input required type="text" class="form-control" asp-for="Mobile" placeholder="mobile">
     </div>
 
     <div class="col-4">
-    <input type="text" class="form-control" asp-for="Email" placeholder="email">
+    <input required type="text" class="form-control" asp-for="Email" placeholder="email">
     </div>
 
     <div class="col-4">
-    <button type="submit">Save</button>
+    <button type="submit" class="btn btn-success mt-3">Save</button>
     </div>
 
 </div>
+
+
 </form>
+
+<div>
+
+    <table class="table">
+     <tr>
+        <th>Name</th>
+        <th>family</th>
+        <th>username</th>
+        <th>password</th>
+        <th>email</th>
+        <th>mobile</th>
+     </tr>
+@foreach (var item in ViewBag.Users)
+{
+    <tr>
+        <td>@item.Name</td>
+        <td>@item.Family</td>
+        <td>@item.username</td>
+        <td>@item.password</td>
+        <td>@item.Email</td>
+        <td>@item.Mobile</td>
+    </tr>
+}
+
+
+
+    </table>
+</div>

@@ -28,6 +28,9 @@ namespace Session_17_Claim.Migrations
 
                     SqlServerPropertyBuilderExtensions.UseIdentityColumn(b.Property<int>("Id"));
 
+                    b.Property<bool>("IdRole")
+                        .HasColumnType("bit");
+
                     b.Property<bool>("Menu_Privacy")
                         .HasColumnType("bit");
 
