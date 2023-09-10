@@ -1,8 +1,10 @@
 ﻿using System.Diagnostics;
+using System.Linq;
 using System.Security.Claims;
 using Microsoft.AspNetCore.Authentication;
 using Microsoft.AspNetCore.Authentication.Cookies;
 using Microsoft.AspNetCore.Mvc;
+using Microsoft.Extensions.Configuration.UserSecrets;
 using Session_17_Claim.Models;
 
 namespace Session_17_Claim.Controllers;
@@ -10,10 +12,10 @@ namespace Session_17_Claim.Controllers;
 public class HomeController : Controller
 {
 
-    private readonly Context db;
-    public HomeController(Context _db)
+    private readonly Context _context;
+    public HomeController(Context context)
     {
-        db = _db;
+        _context = context;
     }
     
     public IActionResult Index()
@@ -33,49 +35,32 @@ public class HomeController : Controller
     }
 
     [HttpPost]
-    public IActionResult check(string username,string password)
+    public IActionResult Check(string username,string password)
     {
-        var ExistUser=db.Table_User.where(c=>c.username==username && c.password==password).FirstOrDefault;
+        
+        var user = _context.Table_Users.Where(x => x.username == username && x.password == password).FirstOrDefault();
 
-
-
-
-        if(ExistUser!=null)
-        { 
-             //get id Role
-             int IdRole=db.Table_RoleUsers.where(c=>c.UserId==ExistUser.id).FirstOrDefault().RoleId;
-
-             string RoleName=db.Table_Roles.where(c=>c.IdRole).FirstOrDefault.RoleName;
-
-
-
-
+        if(username== user.username && password==user.password)
+        {
+            
             var claims=new List<Claim>
             {
-
-                new Claim(ClaimTypes.Name,ExistUser.Name),
-                new Claim(ClaimTypes.Role,RoleName),
-                new Claim(ClaimTypes.NameIdentifier,ExistUser.id.Tostring()),
+                new Claim(ClaimTypes.Name,username),
+                //new Claim(ClaimTypes.Role,"Admin"),
+                new Claim(ClaimTypes.NameIdentifier,user.id.ToString())
             };
 
-
-         var identity=new ClaimsIdentity(claims, CookieAuthenticationDefaults.AuthenticationScheme);
-         
-         var principal=new ClaimsPrincipal(identity);
-
-         //sign in
-         HttpContext.SignInAsync(principal);
-
-
-    
-            return RedirectToAction("Index","Home",new { area="Admin"});
+            var identity=new ClaimsIdentity(claims,CookieAuthenticationDefaults.AuthenticationScheme);
+            var principal=new ClaimsPrincipal(identity);
+            HttpContext.SignInAsync(principal);
+             return RedirectToAction("Index","Home",new {area = "Admin"});
         }
         else
         {
             return RedirectToAction("Login");
         }
+        
     }
-
     
-
+    
 }

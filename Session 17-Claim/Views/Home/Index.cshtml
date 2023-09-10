@@ -1,8 +1,35 @@
-﻿@{
-    ViewData["Title"] = "Home Page";
-}
+﻿@model Table_User
+<form action="/home/adduser" method="post"> 
+<div class="text-center row">
 
-<div class="text-center">
-    <h1 class="display-4">Client</h1>
-    <p>Learn about <a href="https://docs.microsoft.com/aspnet/core">building Web apps with ASP.NET Core</a>.</p>
+
+    <div class="col-4">
+    <input type="text" class="form-control" asp-for="Name" placeholder="name">
+    </div>
+
+    <div class="col-4">
+    <input type="text" class="form-control" asp-for="username" placeholder="username">
+    </div>
+    
+    <div class="col-4">
+    <input type="text" class="form-control" asp-for="password" placeholder="password">
+    </div>
+     
+     <div class="col-4">
+    <input type="text" class="form-control" asp-for="Family" placeholder="family">
+    </div>
+
+     <div class="col-4">
+    <input type="text" class="form-control" asp-for="Mobile" placeholder="mobile">
+    </div>
+
+    <div class="col-4">
+    <input type="text" class="form-control" asp-for="Email" placeholder="email">
+    </div>
+
+    <div class="col-4">
+    <button type="submit">Save</button>
+    </div>
+
 </div>
+</form>

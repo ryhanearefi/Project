@@ -7,6 +7,5 @@ public class Table_Role
    public string RoleName { get; set; }
 
    public bool Menu_Privacy { get; set; }
-   
-   
+    public bool IdRole { get; internal set; }
 }
